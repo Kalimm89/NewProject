@@ -253,11 +253,14 @@ body, p {
 /* Direction star */
 .direction {
   height: 1080px;
+  background-color: #DFDFDF;
+  ;
 }
 .direction_wrapper {
   max-width: 954px;
   margin: 0 auto;
   position: relative;
+  padding-top: 120px;
 }
 .direction_card_desc h2 {
   font-size: 24px;
@@ -348,3 +351,83 @@ body, p {
   margin-bottom: 16px;
 }
 /* Direction end */
+/* Services start */
+.services {
+  height: 1080px;
+}
+.services_wrapper {
+  max-width: 954px;
+  margin: 0 auto;
+  position: relative;
+}
+.services_wrapper-h2 {
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+color: #FF005C;
+padding-top: 120px;
+margin-bottom: 40px;
+}
+.services_wrapper-h3 {
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 667px;
+  margin-bottom: 40px;
+}
+.services_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 302px);
+  grid-template-rows: 302px;
+  gap: 24px;
+}
+.services_card {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0px 0px 11px 0px #6B6B6B40;
+}
+.imgs {
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+.services_card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.services_card h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0 20px;
+}
+.services_card a {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 12px;
+}
+.ellipse {
+  height: 302px;
+  width: 302px;
+  padding: 0;
+}
+/* Services end */
+/* Offers start */
+
+/* Offers end */
