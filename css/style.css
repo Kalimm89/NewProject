@@ -438,22 +438,38 @@ margin-bottom: 40px;
   height: 1080px;
   background-color: #000;
   color: white;
-  
 }
 .offers_wrapper {
   position: relative;
 }
+.offers_ellipse {
+  position: absolute;
+}
+.offers_ellipse-1 {
+  top: 330px;
+  left: 260px;
+}
+.offers_ellipse-2 {
+  top: 110px;
+  right: 300px;
+}
+.offers_ellipse-3 {
+  bottom: -60px;
+  right: 330px;
+  z-index: 3;
+}
 .offers_wrapper_content {
   max-width: 954px;
   margin: 0 auto;
-  /* position: relative; */
   padding-top: 120px;
+  
 }
 .offers_card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 648px;
   gap: 16px;
+
 }
 .offers_cards {
   display: flex;
@@ -462,7 +478,9 @@ margin-bottom: 40px;
   flex-wrap: wrap;
   align-items: center;
   padding: 0 68px;
-  border: 1px solid #FF005C
+  border: 1px solid #FF005C;
+  z-index: 2;
+  background-color: #000;
 }
 .offers_button {
   display: flex;
@@ -526,3 +544,56 @@ margin-bottom: 40px;
   margin-bottom: 4px;
 }
 /* Offers end */
+/* Reviews start */
+.review {
+  height: 1080px;
+  background: url(/img/reviews-fone.png) no-repeat center;
+  color: white;
+}
+.review_wrapper {
+  max-width: 954px;
+  margin: 0 auto;
+  padding-top: 120px;
+  position: relative;
+}
+.review_wrapper h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #FF005C;
+  margin-bottom: 40px;
+}
+.review_wrapper h3 {
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+}
+.review_letter {
+  position: relative;
+}
+.review_letter img {
+  margin-right: 24px;
+  display: block;
+  position: absolute;
+}
+.img_letter_1 {
+  top: 0px;
+  left: 0px;
+}
+.img_letter_2 {
+  top: 0px;
+  right: 60px;
+}
+.img_letter_3 {
+  top: 0px;
+  right: -385px;
+}
+.img_letter_4 {
+  top: 0px;
+  right: -500px;
+}
+/* Reviews end */
