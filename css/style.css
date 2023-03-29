@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+li {
+  list-style: none;
+}
 body, p {
   font-family: Montserrat;
   font-size: 16px;
@@ -427,7 +429,100 @@ margin-bottom: 40px;
   width: 302px;
   padding: 0;
 }
+.services_card:last-child {
+  box-shadow: none;
+}
 /* Services end */
 /* Offers start */
-
+.offers {
+  height: 1080px;
+  background-color: #000;
+  color: white;
+  
+}
+.offers_wrapper {
+  position: relative;
+}
+.offers_wrapper_content {
+  max-width: 954px;
+  margin: 0 auto;
+  /* position: relative; */
+  padding-top: 120px;
+}
+.offers_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 648px;
+  gap: 16px;
+}
+.offers_cards {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 68px;
+  border: 1px solid #FF005C
+}
+.offers_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 45px;
+  width: 140px;
+  background-color: #000;
+  border: 2px solid #FF005C;
+  border-radius: 53px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #FF005C;
+  z-index: 1;
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+.offers_wrapper h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF005C;
+  margin-bottom: 40px;
+}
+.offers_wrapper h3 {
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.offers_cards_desc {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 24px;
+  margin-bottom: 16px;
+}
+.offers_cards_price {
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.offers_cards li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  margin-bottom: 4px;
+}
 /* Offers end */
