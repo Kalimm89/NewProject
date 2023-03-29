@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+}
+.header {
+  background: #000;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 66px;
+  padding-bottom: 26px;
+}
+.header_wrapper {
+  max-width: 1231px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.header_wrapper::after{
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(270deg, rgba(96, 96, 96, 0) 0%, #676767 49.98%, rgba(96, 96, 96, 0) 99.99%);
+  position: absolute;
+  bottom: -26px;
+  left: 0;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+}
+.logo_desc {
+  margin-left: 6px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  
+}
+.header_item{
+  margin-right: 44px;
+}
+.header_item a {
+  text-decoration: none;
+  color: white;
+}
+.header_item:last-child{
+  margin-right: 0;
+}
+/* Intro start */
+.main {
+  width: 100%;
+}
+.intro {
+  height: 940px;
+  background: #000;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 221px;
+  
+}
+.wrapper_intro{
+  max-width: 1262px;
+  height: 940px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro_title {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0em;
+  max-width: 939px;
+  margin-bottom: 64px;
+  padding-top: 199px;
+  z-index: 1;
+}
+.intro_title_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 72px;
+  width: 265px;
+  background-color: #000;
+  border: 2px solid #FFFFFF;
+  border-radius: 53px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: white;
+  z-index: 1;
+}
+.img_one {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.img_two {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 370px;
+}
+.img_three {
+  display: block;
+  position: absolute;
+  bottom: 335px;
+  right: -30px;
+}
+.img_four {
+  display: block;
+  position: absolute;
+  bottom: 280px;
+  right: 215px;
+}
+.intro_social_wrap {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 70px;
+}
+.intro_social_list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.social_item {
+  padding: 10px;
+}
+/* Intro end */
+/* About_us_prev start */
+.about_us_prev {
+  height: 347px;
+  background: url(/img/crop-woman-using-laptop-at-table\ 2.png) no-repeat center;
+  margin-bottom: 120px;
+}
+.wrapper_prew {
+  max-width: 980px;
+  position: relative;
+  margin: 0 auto;
+}
+.prew_cards {
+  position: relative;
+  display: grid;
+  padding-top: 120px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.prew_card {
+  display: grid;
+  justify-content: space-between;
+  grid-column: span 1;
+  border-left: 2px solid #FF005C;
+  padding-left: 8px;
+}
+.prew_card_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: white;
+}
+.prew_card_text_number {
+
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 59px;
+  color: white;
+}
+/* About_us_prev end */
+/* About_us_short start */
+.wrapper_short {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.short_card {
+  display: flex;
+  position: relative;
+}
+.short_card_desc {
+  position: absolute;
+  z-index: 1;
+}
+.short_img {
+  position: absolute;
+  top: 0px;
+  right: 28px;
+}
+.short_card_desc h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #FF005C;
+  margin-bottom: 40px;
+}
+.short_card_desc h3 {
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  width: 490px;
+  margin-bottom: 24px;
+}
+.short_card_desc p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 350px;
+  margin-bottom: 24px;
+}
