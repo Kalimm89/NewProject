@@ -607,7 +607,6 @@ margin-bottom: 40px;
   max-width: 954px;
   margin: 0 auto;
   padding-top: 120px;
-  position: relative;
 }
 .work_process_wrapper h2 {
   margin-bottom: 40px;
@@ -636,7 +635,7 @@ margin-bottom: 40px;
   flex-direction: column;
   box-shadow: 0px 0px 11px 0px #6B6B6B40;
   position: relative;
-  justify-content: center;
+  justify-content: space-around;
 }
 .work_process_card img{
   padding: 23px 0;
@@ -651,7 +650,7 @@ margin-bottom: 40px;
   font-weight: 600;
   line-height: 24px;
   max-width: 159px;
-  margin-bottom: 21px;
+  margin-top: 24px;
 }
 .work_process_card p {
   padding-left: 24px;
@@ -659,5 +658,74 @@ margin-bottom: 40px;
   font-weight: 400;
   line-height: 26px;
   max-width: 248px;
+  margin-bottom: 40px;
 }
 /* Work process end */
+/* Advantages start */
+.advantages {
+  height: 1080px;
+  background: #E0E0E0;
+}
+.advantages_wrapper {
+  max-width: 954px;
+  margin: 0 auto;
+  padding-top: 140px;
+}
+.advantages_wrapper h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #FF005C;
+  ;
+}
+.advantages_wrapper h3 {
+  margin-bottom: 40px;
+  max-width: 791px;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+}
+.advantages_card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 269px);
+  gap: 16px;
+}
+.advantages_cards_sm {
+  grid-column: span 2;
+}
+.advantages_cards_lg {
+  grid-column: span 3;
+}
+.advantages_cards {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0px 0px 9px rgba(90, 90, 90, 0.66);
+  border-radius: 4px;
+  
+}
+.advantages_cards h4 {
+  margin: 35px 0 24px 20px;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FF005C;
+
+}
+.advantages_cards p {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 306px;
+  padding-left: 20px;
+  line-height: 165%;
+}
+.advantages_cards img {
+  position: absolute;
+}
+/* Advantages end */
