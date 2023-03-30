@@ -16,6 +16,7 @@ body, p {
 }
 .header {
   background: #000;
+  background-size: cover;
   color: white;
   position: relative;
   top: 0;
@@ -166,8 +167,11 @@ body, p {
 /* About_us_prev start */
 .about_us_prev {
   height: 347px;
-  background: url(/img/crop-woman-using-laptop-at-table\ 2.png) no-repeat center;
-  /* margin-bottom: 120px; */
+  background: url(/img/crop-woman-using-laptop-at-table.png) no-repeat center;
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .wrapper_prew {
   max-width: 980px;
@@ -212,7 +216,7 @@ body, p {
 }
 .short_card {
   display: flex;
-  padding-top: 143px;
+  padding-top: 120px;
   
 }
 .short_card_desc {
@@ -239,7 +243,7 @@ body, p {
   line-height: 43px;
   letter-spacing: 0.02em;
   width: 490px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 .short_card_desc p {
   font-family: Montserrat;
@@ -248,7 +252,7 @@ body, p {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
-  width: 350px;
+  width: 340px;
   margin-bottom: 24px;
 }
 /* About_us_short end */
@@ -550,6 +554,12 @@ margin-bottom: 40px;
   background: url(/img/reviews-fone.png) no-repeat center;
   color: white;
   width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .review_wrapper {
   max-width: 954px;
@@ -729,3 +739,150 @@ margin-bottom: 40px;
   position: absolute;
 }
 /* Advantages end */
+/* Footer start */
+.footer {
+  height: 1080px;
+  background: #000;
+  color: white;
+  position: relative;
+}
+.footer_ellipse {
+  position: absolute;
+  display: block;
+}
+.footer_ellipse-1 {
+  top: 70px;
+  left: 330px;
+  z-index: 5;
+}
+.footer_ellipse-2 {
+  bottom: 355px;
+  left: 250px;
+}
+.footer_ellipse-3 {
+  top: 30px;
+  right: 210px;
+}
+.footer_ellipse-4 {
+  bottom: 560px;
+  right: 285px;
+  z-index: 5;
+}
+.footer_wrapper {
+  max-width: 954px;
+  margin: 0 auto;
+  padding-top: 166px;
+}
+.footer_contacts {
+  position: relative;
+  z-index: 2;
+  background: #000;
+}
+.contacts_form {
+  display: flex;
+  border: 1px solid #FF005C;
+  box-shadow: 0px 0px 21px 2px #FF005C;
+  height: 476px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.form_desc {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+.form_desc p {
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color:#FFFFFF7A;
+  ;
+}
+.form_desc p:first-child {
+  margin-bottom: 4px;
+}
+.form_desc_inputs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 163px;
+  margin-bottom: 24px;
+}
+.search_form_field {
+  border: 0;
+  background: #000;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  width: 302px;
+  margin-right: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.48);
+  padding-bottom: 16px;
+  margin-bottom: 40px;
+}
+input:focus {
+  outline: none;
+  background: #000;
+}
+.submit_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 56px;
+  width: 176px;
+  background-color: #000;
+  border: 2px solid #FF005C;
+  border-radius: 53px;
+  color: #FF005C;
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  font-family: 'Montserrat';
+  cursor: pointer;
+}
+.contacts_nav_wrapp {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_social_list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.contacts_nav_serv ul li, .contacts_nav_soc ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 165%;
+  margin-bottom: 16px;
+}
+
+.contacts_nav ul li, .contacts_nav_serv ul li:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFFFFF;
+  margin-bottom: 16px;
+}
+.footer_social_wrap {
+  display: flex;
+}
+.contacts_nav_wrapp a {
+  text-decoration: none;
+  color: white;
+}
+/* Footer end */
