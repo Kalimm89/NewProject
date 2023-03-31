@@ -13,8 +13,13 @@
 <body>
     <!-- Header start -->
     <header class="header">
-        <div class="wrapper">
+        
             <div class="header_wrapper">
+                <div class="header__burger burger">
+					<span class="burger__line burger__line_first"></span>
+					<span class="burger__line burger__line_second"></span>
+					<span class="burger__line burger__line_third"></span>
+				</div>
                 <div class="header_logo">
                     <img src="./img/sar-logo.png" alt="sar-logo">
                     <p class="logo_desc">Sarmedia</p>
@@ -38,11 +43,14 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="heder_phone">
+                <div class="header_phone">
                     <p>8 - 999 - 999 - 99 - 99</p>
                 </div>
+                <div class="header_phone_ico">
+                    <img src="./img/phone-ico.png" alt="">
+                </div>
             </div>
-        </div>
+        
     </header>
     <!-- Header end -->
     <main class="main">
@@ -52,6 +60,10 @@
                 <img src="./img/Group 5.png" alt="" class="img_one">
                 <img src="./img/Ellipse 8.png" alt="" class="img_two">
                 <h1 class="intro_title">Разрабатываем цифровые системы</h1>
+                <div class="intro_title_mob">
+                    <p class="title_mob-1">Разрабатываем</p>
+                    <p class="title_mob-2">цифровые системы</p>
+                </div>
                 <a href="#!" class="intro_title_button">Заказать проект</a>
                 <img src="./img/Group 6.png" alt="" class="img_three">
                 <img src="./img/Ellipse 9.png" alt="" class="img_four">
@@ -198,7 +210,7 @@
                         <h3>Есть музыкальная идея? Мы поможем вам сделать из нее хит!</h3>
                         <a href="">Заказать</a>
                     </div>
-                    <div class="services_card">
+                    <div class="services_card services_card-img">
                         <img src="./img/services-ico-ellipse.png" alt="" class="ellipse">
                     </div>
                 </div>
@@ -255,10 +267,10 @@
                 <h2>Отзывы</h2>
                 <h3>Благодарственные письма наших клиентов</h3>
                 <div class="review_letter">
-                    <img src="./img/letter-1.png" alt="" class="img_letter_1">
-                    <img src="./img/letter-2.png" alt="" class="img_letter_2">
-                    <img src="./img/letter-3.png" alt="" class="img_letter_3">
-                    <img src="./img/letter-4.png" alt="" class="img_letter_4">
+                    <div class="review_letter_img img_letter_1"></div>
+                    <div class="review_letter_img letter_img_hide img_letter_2"></div>
+                    <div class="review_letter_img letter_img_hide img_letter_3"></div>
+                    <!-- <div class="review_letter_img letter_img_hide img_letter_4"></div> -->
                 </div>
             </div>
         </section>

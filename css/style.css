@@ -32,6 +32,7 @@ body, p {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  padding: 0 15px;
 }
 .header_wrapper::after{
   display: block;
@@ -43,9 +44,42 @@ body, p {
   bottom: -26px;
   left: 0;
 }
+.header__burger{
+  display: none;
+  width: 40px;
+  height: 28px;
+  position: relative;
+}
+
+.burger__line{
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.burger__line_first{
+  top: 0;
+}
+
+.burger__line_second{
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.burger__line_third{
+  bottom: 0;
+}
 .header_logo {
   display: flex;
   align-items: center;
+}
+.header_phone_ico {
+  display: none;
 }
 .logo_desc {
   margin-left: 6px;
@@ -106,6 +140,28 @@ body, p {
   margin-bottom: 64px;
   padding-top: 199px;
   z-index: 1;
+}
+.intro_title_mob {
+  display: none;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 54px;
+}
+.title_mob-1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 165%;
+}
+.title_mob-2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 165%;
 }
 .intro_title_button {
   display: flex;
@@ -177,6 +233,7 @@ body, p {
   max-width: 980px;
   position: relative;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .prew_cards {
   position: relative;
@@ -214,6 +271,7 @@ body, p {
   max-width: 980px;
   margin: 0 auto;
   position: relative;
+  padding: 0 15px;
 }
 .short_card {
   display: flex;
@@ -267,6 +325,7 @@ body, p {
   max-width: 954px;
   margin: 0 auto;
   position: relative;
+  padding: 0 15px;
   padding-top: 120px;
 }
 .direction_card_desc h2 {
@@ -368,6 +427,7 @@ body, p {
   max-width: 954px;
   margin: 0 auto;
   position: relative;
+  padding: 0 15px;
 }
 .services_wrapper-h2 {
 font-size: 24px;
@@ -516,6 +576,7 @@ margin-bottom: 40px;
   text-align: left;
   color: #FF005C;
   margin-bottom: 40px;
+  position: relative;
 }
 .offers_wrapper h3 {
   font-family: Comfortaa;
@@ -525,6 +586,7 @@ margin-bottom: 40px;
   letter-spacing: 0.02em;
   text-align: left;
   margin-bottom: 40px;
+  position: relative;
 }
 .offers_cards_desc {
   font-size: 20px;
@@ -567,6 +629,7 @@ margin-bottom: 40px;
 .review_wrapper {
   max-width: 954px;
   margin: 0 auto;
+  padding: 0 15px;
   padding-top: 120px;
   position: relative;
 }
@@ -587,28 +650,35 @@ margin-bottom: 40px;
   margin-bottom: 40px;
 }
 .review_letter {
-  position: relative;
+  position: relative; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
-.review_letter img {
-  margin-right: 24px;
-  display: block;
-  position: absolute;
+.review_letter_img  {
+  width: 424px;
+  height: 647px;
 }
 .img_letter_1 {
-  top: 0px;
-  left: 0px;
+  background: url(/img/letter-1.png) no-repeat center;
+  /* top: 0px;
+  left: 0px; */
 }
 .img_letter_2 {
-  top: 0px;
-  right: 60px;
+  background: url(/img/letter-2.png) no-repeat center;
+  /* top: 0px;
+  right: 60px; */
 }
 .img_letter_3 {
+  background: url(/img/letter-3.png) no-repeat center;
+  position: absolute;
   top: 0px;
-  right: -385px;
+  right: -365px;
 }
 .img_letter_4 {
-  top: 0px;
-  right: -500px;
+  background: url(/img/letter-4.png) no-repeat center;
+  /* top: 0px;
+  right: -500px; */
 }
 /* Reviews end */
 /* Work process start */
@@ -620,6 +690,7 @@ margin-bottom: 40px;
 .work_process_wrapper {
   max-width: 954px;
   margin: 0 auto;
+  padding: 0 15px;
   padding-top: 120px;
 }
 .work_process_wrapper h2 {
@@ -683,6 +754,7 @@ margin-bottom: 40px;
 .advantages_wrapper {
   max-width: 954px;
   margin: 0 auto;
+  padding: 0 15px;
   padding-top: 140px;
 }
 .advantages_wrapper h2 {
@@ -752,6 +824,7 @@ margin-bottom: 40px;
 .portfolio_wrapper {
   max-width: 954px;
   margin: 0 auto;
+  padding: 0 15px;
   padding-top: 160px;
   display: flex;
   flex-direction: column;
@@ -867,6 +940,7 @@ margin-bottom: 40px;
 .footer_wrapper {
   max-width: 954px;
   margin: 0 auto;
+  padding: 0 15px;
   padding-top: 166px;
 }
 .footer_contacts {
@@ -982,3 +1056,148 @@ input:focus {
   color: white;
 }
 /* Footer end */
+/* Media start */
+@media screen and (max-width: 1800px) {
+  .offers_ellipse-3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1640px) {
+  .footer_ellipse-4, .footer_ellipse-1 {
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .direction_wrapper {
+    padding-bottom: 120px;
+  }
+  .direction {
+    height: 100%;
+  }
+  .direction_card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+  .direction_cards {
+    background-size: cover;
+  }
+  .services {
+    height: 100%;
+  }
+  .services_wrapper {
+    padding-bottom: 120px;
+  }
+  .services_card {
+    align-content: center;
+  }
+  .services_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .services_card-img {
+    display: none;
+  }
+  .offers_card {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+  }
+  .offers {
+    height: 100%;
+    padding-bottom: 120px;
+  }
+  .img_letter_3 {
+   display: none;
+  }
+  .work_process_cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .work_process_card {
+    height: 270px;
+  }
+  .portfolio {
+    height: 100%;
+  }
+  .portfolio_cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .portfolio_card {
+    height: 350px;
+    width: 350px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .header {
+    padding-top: 40px;
+  }
+  .header__burger {
+    display: block;
+  }
+  .header_nav {
+    display: none;
+  }
+  .header_phone {
+    display: none;
+  }
+  .header_phone_ico {
+    display: block;
+  }
+  .logo_desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header_logo img {
+    width: 28px;
+  }
+  .header_wrapper::after {
+    display: none;
+  }
+  /* ------------------------------------------------------------ */
+  .intro {
+    height: 800px;
+    padding-top: 0px;
+  }
+  .wrapper_intro {
+    height: 800px;
+  }
+  .intro_title {
+    display: none;
+  }
+  .intro_title_button {
+    position: absolute;
+    bottom: 170px;
+  }
+  .intro_title_mob {
+    display: block;
+    top: 245px;
+  }
+  .img_one {
+    left: -100px;
+    top: 460px;
+    width: 181px;
+  }
+  .img_four {
+    right: 0px;
+    top: 615px;
+    width: 64px;
+    z-index: 2;
+  }
+}
+/* Media end */
