@@ -287,6 +287,9 @@ body, p {
   top: 165px;
   right: 28px;
 }
+.short-img-mobile {
+  display: none;
+}
 .short_card_desc h2 {
   font-size: 24px;
   font-weight: 400;
@@ -327,6 +330,9 @@ body, p {
   position: relative;
   padding: 0 15px;
   padding-top: 120px;
+}
+.h3_mobile {
+  display: none;
 }
 .direction_card_desc h2 {
   font-size: 24px;
@@ -386,6 +392,7 @@ body, p {
 .even {
   align-content: center;
   justify-content: center;
+  background-size: cover;
 }
 .even h2 {
   font-size: 48px;
@@ -525,6 +532,9 @@ margin-bottom: 40px;
   right: 330px;
   z-index: 3;
 }
+.offers_ellipse-4 {
+  display: none;
+}
 .offers_wrapper_content {
   max-width: 954px;
   margin: 0 auto;
@@ -567,6 +577,9 @@ margin-bottom: 40px;
   z-index: 1;
   margin-top: auto;
   margin-bottom: 30px;
+}
+.offers_button-mob {
+  display: none;
 }
 .offers_wrapper h2 {
   font-size: 24px;
@@ -907,6 +920,9 @@ margin-bottom: 40px;
 .card_hide {
   display: none;
 }
+.h3_more-mobile {
+  display: none;
+}
 /* Portfolio end */
 /* Footer start */
 .footer {
@@ -1055,6 +1071,9 @@ input:focus {
   text-decoration: none;
   color: white;
 }
+.contacts_nav_soc_mob {
+  display: none;
+}
 /* Footer end */
 /* Media start */
 @media screen and (max-width: 1800px) {
@@ -1182,22 +1201,531 @@ input:focus {
   }
   .intro_title_button {
     position: absolute;
-    bottom: 170px;
+    bottom: 110px;
   }
   .intro_title_mob {
     display: block;
     top: 245px;
   }
+  .intro_social_wrap {
+    padding-bottom: 25px;
+  }
   .img_one {
     left: -100px;
-    top: 460px;
+    top: 510px;
     width: 181px;
   }
   .img_four {
-    right: 0px;
-    top: 615px;
+    right: 25px;
+    top: 670px;
     width: 64px;
     z-index: 2;
+  }
+  .img_three {
+    width: 181px;
+    right: -20px;
+    top: 95px;
+  }
+  .img_two {
+    width: 107px;
+    top: 320px;
+    left: 280px;
+  }
+  /* -------------------------------------------------------------- */
+  .about_us_prev {
+    height: 100%;
+  }
+  .prew_cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .prew_card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+    margin-bottom: 16px;
+  }
+  .prew_card_text {
+    width: 150px;
+  }
+  .prew_card_text_number {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  /* -------------------------------------------------------------- */
+  .short_img {
+    opacity: 0;
+  }
+  .short_card {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .short-img-mobile {
+    margin-bottom: 20px;
+  }
+  .wrapper_short {
+    padding-left: 12px;
+  }
+  .about_us_short {
+    margin-bottom: 80px;
+  }
+  .short-img-mobile {
+    display: block;
+  }
+  .short_card_desc {
+    display: flex;
+    position: unset;
+    flex-direction: column;
+    max-width: 320px;
+  }
+  .short_card_desc h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .short_card_desc h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    max-width: 335px;
+    margin-bottom: 20px;
+  }
+  .short_card_desc p {
+    max-width: 336px;
+  }
+  /* -------------------------------------------------------------- */
+  .direction_wrapper {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 10px;
+  }
+  .direction_cards p, .direction_cards a {
+    display: none;
+  }
+  .direction_cards {
+    flex-basis: auto;
+    width: 160px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-content: center;
+  }
+  .not_even {
+    padding: 0px;
+  }
+  .even h2 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .not_even h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+  }
+  .direction_card {
+    width: 330px;
+    gap: 10px;
+  }
+  .direction_cards img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 13px;
+    padding-top: 13px;
+  }
+  .h3_display {
+    display: none;
+  }
+  .h3_mobile {
+    display: block;
+  }
+  .direction_card_desc_h2 {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .direction_card_desc h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+  }
+  .direction_cards-1 {
+    order: -2;
+  }
+  .direction_cards-2 {
+    order: 0;
+  }
+  .direction_cards-3 {
+    order: 3;
+  }
+  .direction_cards-4 {
+    order: -3;
+  }
+  .direction_cards-5 {
+    order: -1;
+  }
+  .direction_cards-6 {
+    order: 2;
+  }
+  /* -------------------------------------------------------------- */
+  .services_wrapper-h2 {
+    margin-bottom: 40px;
+    padding-top: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+  }
+  .services_wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+  }
+  .services_wrapper-h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    width: 336px;
+    margin-bottom: 20px;
+  }
+   /* -------------------------------------------------------------- */
+   .offers_wrapper_content {
+    padding-top: 80px;
+    padding-left: 12px;
+  }
+  .offers_wrapper h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .offers_wrapper h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    margin-bottom: 20px;
+  }
+  .offers_cards {
+    border-radius: 4px;
+    padding: 0 16px;
+  }
+  .offers_cards_desc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 165%;
+    text-align: left;
+  }
+  .offers_cards_price {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+  }
+  .offers_button-mob {
+    display: block;
+  }
+  #more {
+    display: none;
+  }
+  .offers_cards ul {
+    padding-bottom: 32px;
+  }
+  #btn {
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .offers_button {
+    height: 55px;
+    width: 280px;
+  }
+  .offers_ellipse-1 {
+    display: none;
+  }
+  .offers_ellipse-2 {
+    top: 10px;
+    right: -115px;
+    width: 197px;
+  }
+  .offers_ellipse-3 {
+    display: block;
+    bottom: -80px;
+    left: -40px;
+    width: 92px;
+  }
+  .offers_ellipse-4 {
+    display: block;
+    top: 150px;
+    z-index: 3;
+    right: 0px;
+  }
+/* -------------------------------------------------------------- */
+  .review_letter_img {
+    width: 324px;
+    height: 464px;
+    background-size: contain;
+  }
+  .review {
+    height: 100%;
+    padding-bottom: 80px;
+  }
+  .img_letter_2 {
+    display: none;
+  }
+  .review_wrapper {
+    padding-top: 80px;
+    padding-left: 12px;
+  }
+  .review_wrapper h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .review_wrapper h3 {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    margin-bottom: 0px;
+  }
+  .review_wrapper_span {
+    opacity: 0;
+  }
+  .review_wrapper h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+  }
+  /* -------------------------------------------------------------- */
+  .work_process {
+    height: 100%;
+    padding-bottom: 0px;
+  }
+  .work_process_wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .work_process_wrapper h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .work_process_wrapper h3 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    width: 336px;
+  }
+  /* -------------------------------------------------------------- */
+  .advantages {
+    height: 100%;
+  }
+  .advantages_wrapper {
+    padding: 80px 12px;
+    
+  }
+  .advantages_wrapper h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+  .advantages_wrapper h3 {
+    margin-bottom: 20px;
+    width: 337px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.02em;  
+  }
+  .advantages_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .advantages_cards {
+    width: 320px;
+    height: 180px;
+  }
+  .advantages_cards h4 {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 165%;
+    padding: 24px;
+  }
+  .advantages_cards p {
+    width: 276px;
+  }
+  /* -------------------------------------------------------------- */
+  .portfolio_desc h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+  .h3_wrap h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    width: 335px;
+  }
+  .h3_wrap {
+    margin-bottom: 20px;
+  }
+  .portfolio_card {
+    padding-bottom: 0px;
+    height: 273px;
+    width: 336px;
+    background-size: cover;
+  }
+  .portfolio_cards {
+    gap: 16px;
+  }
+  .portfolio_wrapper {
+    padding: 80px 12px;
+  }
+  .portfolio_card-1 {
+    background: url(/img/portfolio-1-mobile.png) no-repeat center;
+  }
+  .portfolio_card-2 {
+    background: url(/img/portfolio-2-mobile.png) no-repeat center;
+  }
+  .portfolio_card-3 {
+    background: url(/img/portfolio-3-mobile.png) no-repeat center;
+  }
+  .portfolio_card-4 {
+    background: url(/img/portfolio-4-mobile.png) no-repeat center;
+  }
+  .portfolio_card-5 {
+    background: url(/img/portfolio-5-mobile.png) no-repeat center;
+  }
+  .portfolio_card-6 {
+    background: url(/img/portfolio-6-mobile.png) no-repeat center;
+  }
+  .portfolio_card-7 {
+    background: url(/img/portfolio-7-mobile.png) no-repeat center;
+  }
+  .portfolio_card-8 {
+    background: url(/img/portfolio-8-mobile.png) no-repeat center;
+  }
+  .portfolio_card h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    max-width: 308px;
+  }
+  .h3_more {
+    display: none;
+  }
+  .h3_more-mobile {
+    display: block;
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  /* -------------------------------------------------------------- */
+  .footer {
+    height: 100%;
+  }
+  .footer_wrapper {
+    padding: 80px 12px 40px 12px;
+  }
+  .form_desc p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+  }
+  .form_desc {
+    margin-top: 40px;
+    margin-bottom: 58px;
+  }
+  .contacts_form {
+    padding-bottom: 40px;
+  }
+  .search_form_field {
+    width: 244px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+  }
+  .form_desc_inputs {
+    margin-left: 30px;
+  }
+  .submit_button {
+    height: 56px;
+    width: 300px;
+  }
+  .contacts_nav_soc {
+    display: none;
+  }
+  .contacts_nav_soc_mob {
+    display: block;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .footer_social_wrap {
+    display: block;
+  }
+  .contacts_nav_soc_mob nav ul li {
+    padding: 10px;
+  }
+  .contacts_nav_serv ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+  }
+  .contacts_nav ul li, .contacts_nav_serv ul li:first-child {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 165%;
+  }
+  .footer_ellipse-3 {
+    display: none;
+  }
+  .footer_ellipse-4 {
+    width: 146px;
+    top: 30px;
+    left: -50px;
+  }
+  .footer_ellipse-2 {
+    bottom: 500px;
+    left: 210px;
+    z-index: 3;
+    width: 196px;
   }
 }
 /* Media end */

@@ -120,6 +120,7 @@
                         <div class="short_card_desc">
                             <h2>Коротко о нас</h2>
                             <h3>Нашей задачей является создание полезных  web продуктов.</h3>
+                            <img src="./img/crop-woman-mobile.png" alt="" class="short-img-mobile">
                             <p>
                                 Наши основные направления это производство сайтов полного цикла (лендинги, e-commerce, корпоративные сайты и другое), интеграции 
                                 с внешними и внутренними системи заказчика, техническая поддержка 
@@ -137,7 +138,7 @@
         <section class="direction">
             <div class="direction_wrapper">
                 <div class="direction_card_desc">
-                    <h2>Что мы делаем?</h2>
+                    <h2 class="direction_card_desc_h2">Что мы делаем?</h2>
                     <h3>Мы занимаемся блестящим творчеством</h3>
                     <div class="direction_card">
                         <div class="direction_cards not_even direction_cards-1">
@@ -153,7 +154,8 @@
                         </div>
                         <div class="direction_cards not_even direction_cards-3">
                             <img src="./img/direction-pic-3.png" alt="">
-                            <h3>Проектирование</h3>
+                            <h3 class="h3_display">Проектирование</h3>
+                            <h3 class="h3_mobile">Проект</h3>
                             <p>Разработка общих требований к сайту, дизайну, кодингу и верстке; Проектирование страниц.</p>
                             <a href="">Заказать</a>
                         </div>
@@ -223,6 +225,7 @@
                 <img src="./img/offers-ellipse-1.png" alt="" class="offers_ellipse offers_ellipse-1">
                 <img src="./img/offers-ellipse-2.png" alt="" class="offers_ellipse offers_ellipse-2">
                 <img src="./img/offers-ellipse-3.png" alt="" class="offers_ellipse offers_ellipse-3">
+                <img src="./img/offers-ellipse-4.png" alt="" class="offers_ellipse offers_ellipse-4">
                 <div class="offers_wrapper_content">
                     <h2>Специальные предложения</h2>
                     <h3>Доступные цены</h3>
@@ -236,10 +239,14 @@
                                 <li>+ Нешаблонный и удобный UI-UX дизайн,который цепляет внимание</li>
                                 <li>+ Оплата хостинга и домена</li>
                                 <li>+ Адаптивная верстка под телефон, планшет,десктоп и тд </li>
+                                <span id="dots">...</span>
+                                <span id="more">
                                 <li>+ Добавления сайта в системы мониторинга</li>
                                 <li>+ Маркетинговый анализ конкурентов и рынкадля создания продающей структуры</li>
+                                </span>
                             </ul>
-                            <a href="!#" class="offers_button">Выбрать</a>
+                            <a id="btn" onclick="readMore()" class="offers_button-mob">Показать ещё</a>
+                            <a href="#!" class="offers_button">Выбрать</a>
                         </div>
                         <div class="offers_cards">
                             <p class="offers_cards_desc">Пакет Business</p>
@@ -250,11 +257,15 @@
                                 <li>+ Нешаблонный и удобный UI-UX дизайн,который цепляет внимание</li>
                                 <li>+ Проработка логики страниц и их взаимосвязей</li>
                                 <li>+ Оплата хостинга и домена</li>
+                                <span id="dots">...</span>
+                                <span id="more">
                                 <li>+ Адаптивная верстка под телефон, планшет,десктоп и тд </li>
                                 <li>+ Добавления сайта в системы мониторинга</li>
                                 <li>+ Маркетинговый анализ конкурентов и рынка </li>
+                                </span>
                             </ul>
-                            <a href="!#" class="offers_button">Выбрать</a>
+                            <a id="btn" onclick="readMore()" class="offers_button-mob">Показать ещё</a>
+                            <a href="#!" class="offers_button">Выбрать</a>
                         </div>
                     </div>
                 </div>
@@ -265,7 +276,7 @@
         <section class="review">
             <div class="review_wrapper">
                 <h2>Отзывы</h2>
-                <h3>Благодарственные письма наших клиентов</h3>
+                <h3>Благодарственные письма <span class="review_wrapper_span">наших клиентов</span></h3>
                 <div class="review_letter">
                     <div class="review_letter_img img_letter_1"></div>
                     <div class="review_letter_img letter_img_hide img_letter_2"></div>
@@ -348,7 +359,7 @@
                     <h2>Портфолио</h2>
                         <div class="h3_wrap">
                             <h3>Мы разработаем уникальную визуальную составляющую вашего сайта</h3>
-                            <a href="#!">Еще кейсы</a>
+                            <a href="#!" class="h3_more">Еще кейсы</a>
                         </div>
                             <div class="portfolio_cards">
                                 <div class="portfolio_card portfolio_card-1">
@@ -376,6 +387,7 @@
                                     <h4>Удаление вмятин</h4>
                                 </div>
                             </div>
+                            <a href="#!" class="h3_more-mobile">Еще кейсы</a>
                 </div>
             </div>
         </section>
@@ -400,6 +412,36 @@
                         </div>
                         <input type="submit" class="submit_button">
                     </form>
+                    <div class="contacts_nav_soc_mob">
+                        <nav>
+                            <ul>
+                                <li>8 -900 - 693 - 09 - 00 </li>
+                                <li>
+                                    <nav class="footer_social_wrap">
+                                        <ul class="footer_social_list">
+                                            <li class="social_item">
+                                                <a href="#!">
+                                                    <img src="./img/tg-ico.png" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="social_item">
+                                                <a href="#!">
+                                                    <img src="./img/vk-ico.png" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="social_item">
+                                                <a href="#!">
+                                                    <img src="./img/wu-ico.png" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </li>
+                                <li>info@glow-media.ru</li>
+                                <li>г. Брянск, ул. Фокино 27/43</li>
+                            </ul>
+                        </nav>
+                    </div>
                     <div class="contacts_nav_wrapp">
                         <nav class="contacts_nav">
                             <ul>
@@ -454,5 +496,6 @@
         </footer>
         <!-- Footer end -->
     </main>
+    <script src="./js/main.js"></script>
 </body>
 </html>
