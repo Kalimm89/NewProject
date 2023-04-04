@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Manrope:wght@600&family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
     <!-- Header start -->
@@ -42,6 +43,30 @@
                             <a href="#!"> Контакты</a>
                         </li>
                     </ul>
+                    <div class="header__nav-close">
+						<img src="./img/header-nav-close.png" alt="">
+					</div>
+                    <div class="header_soc">
+                        <nav class="intro_social_wrap">
+                            <ul class="intro_social_list">
+                                <li class="social_item">
+                                    <a href="#!">
+                                        <img src="./img/tg-ico.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="social_item">
+                                    <a href="#!">
+                                        <img src="./img/vk-ico.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="social_item">
+                                    <a href="#!">
+                                        <img src="./img/wu-ico.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </nav>
                 <div class="header_phone">
                     <p>8 - 999 - 999 - 99 - 99</p>
@@ -147,7 +172,7 @@
                             <p>Отрисовка всех страниц 
                                 и элементов; Согласования и правки дизайна; 
                                 Фавикон сайта.</p>
-                            <a href="">Заказать</a>
+                            <a href="#!" class="popup-act">Заказать</a>
                         </div>
                         <div class="direction_cards even direction_cards-2">
                             <h2>Скорость</h2>
@@ -157,7 +182,7 @@
                             <h3 class="h3_display">Проектирование</h3>
                             <h3 class="h3_mobile">Проект</h3>
                             <p>Разработка общих требований к сайту, дизайну, кодингу и верстке; Проектирование страниц.</p>
-                            <a href="">Заказать</a>
+                            <a href="#!" class="popup-act">Заказать</a>
                         </div>
                         <div class="direction_cards even direction_cards-4">
                             <h2>Стиль</h2>
@@ -166,7 +191,7 @@
                             <img src="./img/direction-pic-5.png" alt="">
                             <h3>Маркетинг</h3>
                             <p>Проектирование коммерческих факторов и информативности сайта; Установка онлайн-чата и заказа обратного звонка.</p>
-                            <a href="">Заказать</a>
+                            <a href="#!" class="popup-act">Заказать</a>
                         </div>
                         <div class="direction_cards even direction_cards-6">
                             <h2>Качество</h2>
@@ -186,31 +211,31 @@
                         <img src="./img/services-ico-1.png" alt="" class="imgs">
                         <h2>Разработка сайтов</h2>
                         <h3>Создаем функциональные и стильные сайты.</h3>
-                        <a href="">Заказать</a>
+                        <a href="#!" class="popup-act">Заказать</a>
                     </div>
                     <div class="services_card">
                         <img src="./img/services-ico-2.png" alt="" class="imgs">
                         <h2>Продвижение сайтов</h2>
                         <h3>Доработка, развитие и продвижение сайта с учетом требований поисковиков.</h3>
-                        <a href="">Заказать</a>
+                        <a href="#!" class="popup-act">Заказать</a>
                     </div>
                     <div class="services_card">
                         <img src="./img/services-ico-3.png" alt="" class="imgs">
                         <h2>Поддержка сайтов</h2>
                         <h3>Сопровождение и обслуживание сайтов.</h3>
-                        <a href="">Заказать</a>
+                        <a href="#!" class="popup-act">Заказать</a>
                     </div>
                     <div class="services_card">
                         <img src="./img/services-ico-4.png" alt="" class="imgs">
                         <h2>UI/UX Дизайн</h2>
                         <h3>Качественный дизайн, который дополнит структуру сайта.</h3>
-                        <a href="">Заказать</a>
+                        <a href="#!" class="popup-act">Заказать</a>
                     </div>
                     <div class="services_card">
                         <img src="./img/services-ico-5.png" alt="" class="imgs">
                         <h2>Звукозапись</h2>
                         <h3>Есть музыкальная идея? Мы поможем вам сделать из нее хит!</h3>
-                        <a href="">Заказать</a>
+                        <a href="#!" class="popup-act">Заказать</a>
                     </div>
                     <div class="services_card services_card-img">
                         <img src="./img/services-ico-ellipse.png" alt="" class="ellipse">
@@ -219,6 +244,27 @@
             </div>
         </section>
         <!-- Services end -->
+        <!-- Popup start -->
+        <div class="popup_form">
+            <div class="popup_form_wrapper">
+                <form class="contacts_form-p">
+                    <div class="form_desc">
+                        <p>Заполните анкету</p>
+                        <p>и мы вам перезвоним</p>
+                    </div> 
+                    <div class="form_desc_inputs">
+                        <input type="name" name="name" id="" class="search_form_field" placeholder="Имя">
+                        <input type="tel" name="phone" id="" class="search_form_field" placeholder="Телефон">
+                        <input type="email" name="email" id="" class="search_form_field" placeholder="Email">
+                    </div>
+                    <input type="submit" class="submit_button">
+                </form>
+                <div class="popup_form-close">
+                    <img src="./img/header-nav-close.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Popup end -->
         <!-- Offers start -->
         <section class="offers">
             <div class="offers_wrapper">
@@ -238,14 +284,13 @@
                                 <li>~ 3  недели</li>
                                 <li>+ Нешаблонный и удобный UI-UX дизайн,который цепляет внимание</li>
                                 <li>+ Оплата хостинга и домена</li>
-                                <li>+ Адаптивная верстка под телефон, планшет,десктоп и тд </li>
-                                <span id="dots">...</span>
+                                <li>+ Адаптивная верстка под телефон, планшет,десктоп и тд <span id="dots" style="opacity: 0;">...</span></li>
                                 <span id="more">
                                 <li>+ Добавления сайта в системы мониторинга</li>
                                 <li>+ Маркетинговый анализ конкурентов и рынкадля создания продающей структуры</li>
                                 </span>
                             </ul>
-                            <a id="btn" onclick="readMore()" class="offers_button-mob">Показать ещё</a>
+                            <a id="btn" onclick="readMoreStandart()" class="offers_button-mob">Показать ещё</a>
                             <a href="#!" class="offers_button">Выбрать</a>
                         </div>
                         <div class="offers_cards">
@@ -256,15 +301,14 @@
                                 <li>~4 недель</li>
                                 <li>+ Нешаблонный и удобный UI-UX дизайн,который цепляет внимание</li>
                                 <li>+ Проработка логики страниц и их взаимосвязей</li>
-                                <li>+ Оплата хостинга и домена</li>
-                                <span id="dots">...</span>
-                                <span id="more">
+                                <li>+ Оплата хостинга и домена<span id="dots_second" style="opacity: 0;">...</span></li>
+                                <span id="more_second">
                                 <li>+ Адаптивная верстка под телефон, планшет,десктоп и тд </li>
                                 <li>+ Добавления сайта в системы мониторинга</li>
                                 <li>+ Маркетинговый анализ конкурентов и рынка </li>
                                 </span>
                             </ul>
-                            <a id="btn" onclick="readMore()" class="offers_button-mob">Показать ещё</a>
+                            <a id="btn_second" onclick="readMoreBusiness()" class="offers_button-mob">Показать ещё</a>
                             <a href="#!" class="offers_button">Выбрать</a>
                         </div>
                     </div>
@@ -277,11 +321,21 @@
             <div class="review_wrapper">
                 <h2>Отзывы</h2>
                 <h3>Благодарственные письма <span class="review_wrapper_span">наших клиентов</span></h3>
-                <div class="review_letter">
-                    <div class="review_letter_img img_letter_1"></div>
-                    <div class="review_letter_img letter_img_hide img_letter_2"></div>
-                    <div class="review_letter_img letter_img_hide img_letter_3"></div>
-                    <!-- <div class="review_letter_img letter_img_hide img_letter_4"></div> -->
+                <div class="swiper">
+                    <div class="review_letter swiper-wrapper">
+                        <div class="review_letter_img img_letter_1 swiper-slide">
+                            <img src="./img/letter-1.png" alt="">
+                        </div>
+                        <div class="review_letter_img letter_img_hide img_letter_2 swiper-slide">
+                            <img src="./img/letter-2.png" alt="">
+                        </div>
+                        <div class="review_letter_img letter_img_hide img_letter_3 swiper-slide">
+                            <img src="./img/letter-3.png" alt="">
+                        </div>
+                        <div class="review_letter_img letter_img_hide img_letter_4 swiper-slide">
+                            <img src="./img/letter-4.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -380,14 +434,14 @@
                                 <div class="portfolio_card portfolio_card-6 card_black">
                                     <h4>Современные ноутбуки SAR</h4>
                                 </div>
-                                <div class="portfolio_card portfolio_card-7 card_hide">
+                                <div class="portfolio_card portfolio_card-7 card_hide" id="card_hide" style="display: none;">
                                     <h4>Металлобаза</h4>
                                 </div>
-                                <div class="portfolio_card portfolio_card-8 card_hide">
+                                <div class="portfolio_card portfolio_card-8 card_hide2" id="card_hide2" style="display: none;">
                                     <h4>Удаление вмятин</h4>
                                 </div>
                             </div>
-                            <a href="#!" class="h3_more-mobile">Еще кейсы</a>
+                            <a href="#!" class="h3_more-mobile" id="h3_more-mobile">Еще кейсы</a>
                 </div>
             </div>
         </section>
@@ -496,6 +550,9 @@
         </footer>
         <!-- Footer end -->
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
+<!-- Анимация дрожания при заходе,
+Заполните анкету и мы вам перезвоним -->
