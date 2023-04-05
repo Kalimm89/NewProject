@@ -10,11 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Manrope:wght@600&family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header start -->
     <header class="header">
-        
             <div class="header_wrapper">
                 <div class="header__burger burger">
 					<span class="burger__line burger__line_first"></span>
@@ -75,23 +75,23 @@
                     <img src="./img/phone-ico.png" alt="">
                 </div>
             </div>
-        
     </header>
     <!-- Header end -->
     <main class="main">
     <!-- Intro start -->
         <section class="intro">
             <div class="wrapper_intro">
-                <img src="./img/Group 5.png" alt="" class="img_one">
-                <img src="./img/Ellipse 8.png" alt="" class="img_two">
+                <img src="./img/Group 5.png" alt="" class="img_one" data-aos="fade-up" data-aos-duration="800">
+                <img src="./img/Ellipse 8.png" alt="" class="img_two" data-aos="fade-up" data-aos-duration="800">
+                <img src="./img/Group 6.png" alt="" class="img_three" data-aos="fade-up" data-aos-duration="800">
+                <img src="./img/Ellipse 9.png" alt="" class="img_four" data-aos="fade-up" data-aos-duration="800">
                 <h1 class="intro_title">Разрабатываем цифровые системы</h1>
                 <div class="intro_title_mob">
                     <p class="title_mob-1">Разрабатываем</p>
                     <p class="title_mob-2">цифровые системы</p>
                 </div>
                 <a href="#!" class="intro_title_button">Заказать проект</a>
-                <img src="./img/Group 6.png" alt="" class="img_three">
-                <img src="./img/Ellipse 9.png" alt="" class="img_four">
+                
                 <nav class="intro_social_wrap">
                     <ul class="intro_social_list">
                         <li class="social_item">
@@ -248,14 +248,14 @@
         <div class="popup_form">
             <div class="popup_form_wrapper">
                 <form class="contacts_form-p">
-                    <div class="form_desc">
+                    <div class="form_desc form_desc_p">
                         <p>Заполните анкету</p>
                         <p>и мы вам перезвоним</p>
                     </div> 
-                    <div class="form_desc_inputs">
-                        <input type="name" name="name" id="" class="search_form_field" placeholder="Имя">
-                        <input type="tel" name="phone" id="" class="search_form_field" placeholder="Телефон">
-                        <input type="email" name="email" id="" class="search_form_field" placeholder="Email">
+                    <div class="form_desc_inputs-p">
+                        <input type="name" name="name" id="" class="search_form_field-p" placeholder="Имя">
+                        <input type="tel" name="phone" id="" class="search_form_field-p" placeholder="Телефон">
+                        <input type="email" name="email" id="" class="search_form_field-p" placeholder="Email">
                     </div>
                     <input type="submit" class="submit_button">
                 </form>
@@ -291,7 +291,7 @@
                                 </span>
                             </ul>
                             <a id="btn" onclick="readMoreStandart()" class="offers_button-mob">Показать ещё</a>
-                            <a href="#!" class="offers_button">Выбрать</a>
+                            <a href="#!" class="offers_button popup-act">Выбрать</a>
                         </div>
                         <div class="offers_cards">
                             <p class="offers_cards_desc">Пакет Business</p>
@@ -309,7 +309,7 @@
                                 </span>
                             </ul>
                             <a id="btn_second" onclick="readMoreBusiness()" class="offers_button-mob">Показать ещё</a>
-                            <a href="#!" class="offers_button">Выбрать</a>
+                            <a href="#!" class="offers_button popup-act">Выбрать</a>
                         </div>
                     </div>
                 </div>
@@ -550,9 +550,9 @@
         </footer>
         <!-- Footer end -->
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({duration: 1200, once: false,});</script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
-<!-- Анимация дрожания при заходе,
-Заполните анкету и мы вам перезвоним -->

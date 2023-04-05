@@ -13,6 +13,7 @@ function readMoreStandart() {
         more.style.display="inline";
     }
 }
+
 //Business
 function readMoreBusiness() {
     var dots_second = document.getElementById("dots_second");
@@ -28,21 +29,7 @@ function readMoreBusiness() {
         more_second.style.display="inline";
     }
 }
-//Portfolio more
-// function portfolioMore() {
-//     var card_hide = document.getElementById("card_hide");
-//     var card_hide2 = document.getElementById("card_hide2");
-//     var btn = document.getElementById("h3_more-mobile");
-//     if(card_hide.style.display === "none") {
-//         card_hide.style.display="block";
-//         card_hide2.style.display="block";
-//         btn.innerHTML="Скрыть";
-//     } else {
-//         card_hide.style.display="none";
-//         card_hide2.style.display="none";
-//         btn.innerHTML="Ещё кейсы";
-//     }
-// }
+
 // Burger handler
 (function () {
     const burgerItem = document.querySelector('.burger');
