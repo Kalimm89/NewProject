@@ -28,3 +28,23 @@ for (let i = 0; i < arrow.length; i++){
        submenu.classList.toggle('open');
    });
 }
+// Swiper
+new Swiper('.new', {
+    navigation: {
+        nextEl: '.ar_right',
+        prevEl: '.ar_left'
+    },
+    loop: false,
+    grabCursor: true,
+    slidesPerView: 1.5,
+    initialSlide: 0,
+    spaceBetween: 24,
+    breakpoints: {
+        1280: {
+            slidesPerView: 3.5,
+        },
+        1050: {
+            slidesPerView: 2,
+        }
+    },
+});
