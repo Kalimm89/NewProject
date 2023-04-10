@@ -68,9 +68,9 @@ function readMoreBusiness() {
 
 //Swiper
 new Swiper('.swiper', {
-    loop: true,
+    loop: false,
     grabCursor: true,
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 12,
     breakpoints: {
         640: {
