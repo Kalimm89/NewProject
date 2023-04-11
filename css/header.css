@@ -16,7 +16,7 @@
     width: 100%;
   }
   .header {
-    background: black;
+    background: #171717;
     background-size: cover;
     color: white;
     position: relative;
@@ -83,6 +83,9 @@
   .header_logo {
     display: flex;
     align-items: center;
+  }
+  .header_logo-small {
+    display: none;
   }
   .header_phone_ico,
   .header__nav-close {
@@ -201,8 +204,11 @@
       font-size: 16px;
       line-height: 20px;
     }
-    .header_logo img {
-      width: 28px;
+    .header_logo {
+      display: none;
+    }
+    .header_logo-small {
+      display: block;
     }
     .header_wrapper::after {
       display: none;

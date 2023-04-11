@@ -70,11 +70,17 @@ function readMoreBusiness() {
 new Swiper('.swiper', {
     loop: false,
     grabCursor: true,
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 12,
     breakpoints: {
-        640: {
+        1330: {
             slidesPerView: 3,
+        },
+        1075: {
+            slidesPerView: 2.5,
+        },
+        887: {
+            slidesPerView: 1.5,
         }
     },
 });

@@ -1,7 +1,13 @@
+.land-but:hover, .land-but:active, .land-but:focus,
+.corp-but:hover, .corp-but:active, .corp-but:focus,
+.shop-but:hover, .shop-but:active, .shop-but:focus {
+  background-color: black;
+  color: white !important;
+}
 /* SEO_intro start */
 .seo_intro {
     height: 300px;
-    background: black;
+    background: #171717;
     padding-top: 200px;
   }
 .seo_intro_wrap {
@@ -127,6 +133,7 @@
 .landing_page {
   height: 1192px;
   background-color: #DFDFDF;
+  overflow: hidden;
 }
 .land_wrap {
   max-width: 953px;
@@ -189,6 +196,9 @@
 .land-mac {
   position: absolute;
   top: 40px;
+}
+.land-mac-small, .corp-mac-small, .shop-mac-small {
+  display: none;
 }
 .land-but {
   display: flex;
@@ -323,6 +333,7 @@
 .corp_page {
   height: 1076px;
   background-color: #DFDFDF;
+  overflow: hidden;
 }
 .corp_wrap {
   max-width: 953px;
@@ -337,11 +348,12 @@
 }
 .corp_number-img {
   position: absolute;
-  top: -30px;
-  right: -260px;
+  top: -70px;
+  right: -290px;
 }
 .corp-right {
   max-width: 467px;
+  z-index: 2;
 }
 .corp-right h4 {
   font-family: 'Montserrat';
@@ -510,6 +522,7 @@
 .shop_page {
   height: 1012px;
   background-color: #DFDFDF;
+  overflow: hidden;
 }
 .shop_wrap {
   max-width: 953px;
@@ -522,11 +535,12 @@
 }
 .shop-number-img {
   position: absolute;
-  top: -30px;
+  top: -130px;
   left: -245px;
 }
 .shop-left {
   max-width: 467px;
+  z-index: 2;
 }
 .shop-left h4 {
   font-family: 'Montserrat';
@@ -990,6 +1004,16 @@ transition: 0.3s all linear;
       margin-top: 0px;
       margin-bottom: 20px;
     }
+    .corp-tarif, .shop-tarif, .land-tarif {
+      height: 100%;
+    }
+    .corp-tarif_cards, .shop-tarif_cards, .land-tarif_cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .corp-tarif_card:last-child, .shop-tarif_card:last-child, .land-tarif_card:last-child {
+      margin-bottom: 160px;
+    }
   }
   @media screen and (max-width: 1160px) {
     .li_container {
@@ -1048,8 +1072,54 @@ transition: 0.3s all linear;
     .services_card-img{
       display: none;
     }
+    .portfolio {
+      height: 100%;
+    }
+    .portfolio_cards {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      margin-bottom: 160px;
+    }
+    .portfolio_card {
+      height: 350px;
+      width: 350px;
+      background-size: cover;
+    }
   }
-  @media screen and (max-width: 640px) { 
-  /* -------------------------------------------------------------- */
-  
-}
+  @media screen and (max-width: 860px) { 
+    .seo_intro_info {
+      padding: 10px;
+    }
+    .prom_card_wrap {
+      text-align: center;
+    }
+    .landing_page {
+      height: 100%;
+    }
+    .land_wrap {
+      text-align: center;
+    }
+    .land_card_wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+    .number-img {
+      right: 20px;
+      left: 0px;
+    }
+    .land-left {
+      z-index: 2;
+      margin-bottom: 40px;
+    }
+    .land-but {
+      position: unset;
+    }
+    .land-mac {
+      display: none;
+    }
+    .land-mac-small {
+      display: block;
+    }
+ }
