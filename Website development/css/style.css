@@ -1095,31 +1095,128 @@ transition: 0.3s all linear;
     .prom_card_wrap {
       text-align: center;
     }
-    .landing_page {
+    .landing_page, .shop_page {
       height: 100%;
     }
-    .land_wrap {
+    .land_wrap, .shop_wrap {
       text-align: center;
     }
-    .land_card_wrap {
+    .land_card_wrap, .shop_card_wrap {
       flex-direction: column;
       align-items: center;
     }
-    .number-img {
+    .number-img, .shop-number-img {
       right: 20px;
       left: 0px;
     }
-    .land-left {
+    .land-left, .shop-left {
       z-index: 2;
       margin-bottom: 40px;
     }
-    .land-but {
+    .land-but, .shop-but {
       position: unset;
     }
-    .land-mac {
+    .land-mac, .shop-mac, .corp-mac {
       display: none;
     }
-    .land-mac-small {
+    .land-mac-small, .shop-mac-small {
       display: block;
     }
+    .land-right, .shop-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .corp_page {
+      height: 100%;
+    }
+    .corp_wrap {
+      justify-content: center;
+    }
+    .corp_card_wrap {
+      flex-direction: column-reverse;
+    }
+    .corp-mac-small {
+      display: block;
+    }
+    .corp-but {
+      position: initial;
+    }
+    .corp_number-img {
+      right: -200px;
+    }
+    .corp-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .corp-right {
+      margin-bottom: 40px;
+    }
+    .audit {
+      height: auto;
+    }
  }
+ @media screen and (max-width: 670px) {
+    .li_container {
+      align-items: center;
+    }
+    .select_1, .select_2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .li_item {
+      max-width: 300px;
+    }
+    .menu li {
+      display: flex;
+      justify-content: space-between;
+    }
+    .arrow {
+      position: initial;
+      padding: 10px;
+    }
+    .seo_intro_info {
+      display: none;
+    }
+    .seo_intro {
+      position: relative;
+      height: 100%;
+      padding-top: 0px;
+      z-index: -2;
+    }
+    .seo_intro_info_mobile {
+      position: relative;
+      z-index: -1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .seo_intro_info_mobile img {
+      position: absolute;
+      z-index: -1;
+    }
+    .seo_intro_info_mobile h1 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 165%;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 92px;
+      margin-bottom: 32px;
+    }
+    .seo_intro_info_mobile p {
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 40px;
+    }
+  }
