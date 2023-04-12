@@ -1194,6 +1194,7 @@ transition: 0.3s all linear;
       display: flex;
       flex-direction: column;
       align-items: center;
+      overflow: hidden;
     }
     .seo_intro_info_mobile img {
       position: absolute;
@@ -1218,5 +1219,342 @@ transition: 0.3s all linear;
       letter-spacing: 0.02em;
       color: #FFFFFF;
       margin-bottom: 40px;
+    }
+    .intro_socials_wrap li {
+      padding: 20px;
+    }
+    .intro_socials_wrap li a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .intro_socials_wrap {
+      margin-bottom: 25px;
+    }
+    .seo_intro_but {
+      width: 330px;
+    }
+    /* -------------------------------------------------------------------- */
+    .promotion_wrap {
+      padding: 80px 12px 0 12px;
+    }
+    .prom_card_h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 165%;
+      margin-bottom: 20px;
+    }
+    .prom_card_img {
+      width: 320px;
+      height: 100%;
+      margin-top: 16px;
+      margin-bottom: 80px;
+    }
+    .land_wrap {
+      padding: 80px 12px 0px 12px;
+    }
+    .land_wrap h2 {
+      margin-bottom: 20px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: left;
+    }
+    .land_wrap h3 {
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 180%;
+      letter-spacing: 0.02em;
+      text-align: left;
+      margin-bottom: 26px;
+    }
+    .number-img {
+      width: 128px;
+      top: -40px;
+      left: 210px;
+    }
+    .land-left h4 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 165%;
+      margin-bottom: 20px;
+    }
+    .land-but {
+      margin-bottom: 25px;
+    }
+    /* --------------------------------------------------------------------------- */
+    .land-tarif_wrap {
+      padding: 80px 12px 0px 12px;
+    }
+    .land-tarif_desc {
+      padding-top: 0px;
+    }
+    .land-tarif_desc h2 {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+    }
+    .land-tarif_desc h3 {
+      font-size: 16px;
+      margin-bottom: 40px;
+      max-width: 951px;
+    }
+    .land-tarif_card {
+      width: 337px;
+      height: 534px;
+    }
+    .land-tarif_button {
+      margin-top: 20px;
+      width: 300px;
+    }
+    .land-tarif_button_dif {
+      margin-top: 35px;
+    }
+    .land-tarif_card:last-child {
+      margin-bottom: 80px;
+    }
+    /* ---------------------------------------------------------------------------------- */
+    .corp_wrap {
+      padding-top: 0px;
+    }
+    .corp_number-img {
+      width: 128px;
+      top: 65px;
+      right: 10px;
+    }
+    .corp-right {
+      padding: 80px 12px 0px 12px;
+    }
+    .corp-right h4 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      line-height: 165%;
+    }
+    .corp-left {
+      margin-bottom: 80px;
+    }
+    /* --------------------------------------------------------------------------------------- */
+    .corp-tarif_wrap {
+      padding: 80px 12px 0px 12px;
+    }
+    .corp-tarif_desc {
+      padding-top: 0px;
+    }
+    .corp-tarif_desc h2 {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+    }
+    .corp-tarif_desc h3 {
+      font-size: 16px;
+      margin-bottom: 40px;
+      max-width: 951px;
+    }
+    .corp-tarif_card {
+      width: 335px;
+      height: 100%;
+    }
+    .corp-tarif_button {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 300px;
+    }
+    .corp-tarif_button_dif {
+      margin-top: 35px;
+    }
+    .corp-tarif_card:last-child {
+      margin-bottom: 80px;
+    }
+    /* ---------------------------------------------------------------------------------- */
+    .shop_wrap {
+      padding: 80px 12px 0px 12px;
+    }
+    .shop_wrap h2 {
+      margin-bottom: 20px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: left;
+    }
+    .shop_wrap h3 {
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 180%;
+      letter-spacing: 0.02em;
+      text-align: left;
+      margin-bottom: 26px;
+    }
+    .shop-number-img {
+      width: 128px;
+      top: -40px;
+      left: 210px;
+    }
+    .shop-left h4 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 165%;
+      margin-bottom: 20px;
+    }
+    .shop-but {
+      margin-bottom: 25px;
+    }
+    /* --------------------------------------------------------------------------------------- */
+    .shop-tarif_wrap {
+      padding: 80px 12px 0px 12px;
+    }
+    .shop-tarif_desc {
+      padding-top: 0px;
+    }
+    .shop-tarif_desc h2 {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+    }
+    .shop-tarif_desc h3 {
+      font-size: 16px;
+      margin-bottom: 40px;
+      max-width: 951px;
+    }
+    .shop-tarif_card {
+      width: 335px;
+      height: 100%;
+    }
+    .shop-tarif_button {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 300px;
+    }
+    .shop-tarif_button_dif {
+      margin-top: 35px;
+    }
+    .shop-tarif_card:last-child {
+      margin-bottom: 80px;
+    }
+    /* ---------------------------------------------------------------------------------------------- */
+    .audit {
+      background: url(/img/audit-small.png) no-repeat center;
+      background-size: cover;
+    }
+    .audit_wrap h2 {
+      margin-top: 80px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 165%;
+    }
+    .audit_wrap p {
+      font-size: 16px;
+      line-height: 180%;
+      margin-bottom: 32px;
+    }
+    .audit_wrap a {
+      width: 300px;
+      height: 65px;
+      margin-bottom: 80px;
+    }
+        /* -------------------------------------------------------------- */
+    .portfolio_desc h2 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+    }
+    .h3_wrap h3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 180%;
+      max-width: 335px;
+    }
+    .h3_wrap {
+      margin-bottom: 20px;
+    }
+    .portfolio_card {
+      padding-bottom: 0px;
+      height: 273px;
+      width: 336px;
+      background-size: cover;
+    }
+    .portfolio_cards {
+      gap: 16px;
+      margin-bottom: 0px;
+    }
+    .portfolio_wrapper {
+      padding: 80px 12px;
+    }
+    .portfolio_card-1 {
+      background: url(/img/portfolio-1-mobile.png) no-repeat center;
+    }
+    .portfolio_card-2 {
+      background: url(/img/portfolio-2-mobile.png) no-repeat center;
+    }
+    .portfolio_card-3 {
+      background: url(/img/portfolio-3-mobile.png) no-repeat center;
+    }
+    .portfolio_card-4 {
+      background: url(/img/portfolio-4-mobile.png) no-repeat center;
+    }
+    .portfolio_card-5 {
+      background: url(/img/portfolio-5-mobile.png) no-repeat center;
+    }
+    .portfolio_card-6 {
+      background: url(/img/portfolio-6-mobile.png) no-repeat center;
+      background-size: cover;
+    }
+    .portfolio_card-7 {
+      background: url(/img/portfolio-7-mobile.png) no-repeat center;
+    }
+    .portfolio_card-8 {
+      background: url(/img/portfolio-8-mobile.png) no-repeat center;
+    }
+    .portfolio_card h4 {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 500;
+      max-width: 308px;
+    }
+    .card_hide,
+    .card_hide2 {
+      background-size: cover;
+    }
+    .h3_more {
+      display: none;
+    }
+    .h3_more-mobile {
+      display: block;
+      text-align: center;
+      padding-top: 32px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 23px;
+    }
+    /* ----------------------------------------------------------------------------------------- */
+    .quest_wrap {
+      padding-top: 80px;
+      align-items: normal;
+    }
+    .quest_wrap h2 {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+      text-align: left;
+      padding-left: 12px;
+    }
+    .quest_wrap h3 {
+      font-size: 16px;
+      margin-bottom: 20px;
+      padding-left: 12px;
+    }
+    .break {
+      display: none;
+    }
+    .li_container {
+      gap: 0px;
+      padding-bottom: 80px;
     }
   }
