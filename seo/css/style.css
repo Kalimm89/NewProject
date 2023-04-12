@@ -18,6 +18,9 @@
     height: 645px;
     z-index: 9;
 }
+.seo_intro_info_mobile {
+  display: none;
+}
 .seo_intro a {
     color: white;
 }
@@ -138,7 +141,7 @@
     margin-bottom: 40px;
 }
 .slide_card_right_img {
-    background: url('../img/prom-pic-1.png') no-repeat center;
+    background: url('../img/prom-pic-1-small.png') no-repeat center;
     height: 370px;
     background-size: cover;
     width: 464px;
@@ -164,6 +167,9 @@
     margin-bottom: 40px;
 }
 .img-left, .img-right {
+  display: none;
+}
+.slide_card_right_mobile {
   display: none;
 }
   /* Promotion examples end */
@@ -193,6 +199,9 @@
 }
 .prom_card_img {
     width: 100%;
+}
+.pagination_mobile {
+  display: none;
 }
   /* Promotion end */
   /* Seo_Services start */
@@ -765,6 +774,161 @@ transition: 0.3s all linear;
     }
   }
   @media screen and (max-width: 640px) { 
-  /* -------------------------------------------------------------- */
-  
+    .seo_intro_info {
+      display: none;
+    }
+    .seo_intro {
+      position: relative;
+      height: 100%;
+      padding-top: 0px;
+      z-index: -2;
+    }
+    .seo_intro_info_mobile {
+      position: relative;
+      z-index: -1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      
+    }
+    .seo_intro_info_mobile img {
+      position: absolute;
+      z-index: -1;
+    }
+    .seo_intro_info_mobile h1 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 165%;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 211px;
+      margin-bottom: 32px;
+    }
+    .seo_intro_info_mobile p {
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 180%;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 40px;
+      max-width: 336px;
+    }
+    .intro_socials_wrap li {
+      padding: 20px;
+    }
+    .intro_socials_wrap li a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .intro_socials_wrap {
+      margin-bottom: 25px;
+    }
+    .seo_intro_but {
+      width: 330px;
+    }
+    /* _______________________________________________________________________________ */
+    .promotion_wrap {
+      padding: 64px 12px 20px 12px;
+    }
+    .prom_card_h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 165%;
+      margin-bottom: 20px;
+    }
+    .prom_card_p {
+      margin-bottom: 40px;
+    }
+    .prom_card_img {
+      margin-bottom: 40px;
+    }
+    /* ___________________________________________________________________________________ */
+    .prom_slide_wrap {
+      max-width: 350px;
+    }
+    .prom_slide_card {
+      padding: 40px 12px 32px 12px;
+    }
+    .prom_slide_card h3 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .prom_exam_wrap {
+      flex-direction: column;
+      gap: 32px;
+    }
+    .slide_card_wrap {
+      padding: 0px 12px 0px 12px;
+    }
+    .slide_card_left {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    .slide_card_left h4 {
+      font-size: 16px;
+      line-height: 165%;
+      line-height: 24px;
+      margin-bottom: 16px;
+    }
+    .slide_card_left p {
+      font-size: 16px;
+      line-height: 165%;
+      max-width: 320px;
+      margin-bottom: 24px;
+    }
+    .slide_card_right {
+      display: none;
+    }
+    .slide_card_right_mobile {
+      display: block;
+      padding-left: 12px;
+      padding-right: 12px;
+      position: relative;
+    }
+    .slide_card_right_mobile img {
+      width: 100%;
+    }
+    .slide_card_right_mobile h5 {
+      position: absolute;
+      color: white;
+      bottom: 25px;
+      left: 45px;
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 180%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.02em;
+      width: 256px;
+    }
+    .slide_card_right_mobile p {
+      margin-bottom: 36px;
+    }
+    .img_grafic {
+      margin-bottom: 40px;
+    }
+    .pagination_mobile {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 400px;
+    }
+    .pagination_mobile a {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FF005C;
+      text-decoration: none;
+      margin-bottom: 88px;
+    }
 }
