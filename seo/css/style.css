@@ -97,6 +97,7 @@
 .prom_exam {
     height: 1187px;
     background-color: #DFDFDF;
+    overflow: hidden;
 }
 .prom_exam_wrap {
     display: flex;
@@ -297,6 +298,7 @@
 .tarif {
   height: 979px;
   background-color: #171717;
+  overflow: hidden;
 }
 .tarif_wrap {
   max-width: 1440px;
@@ -509,6 +511,12 @@
   height: 681px;
   position: relative;
 }
+.diary_card_p::after {
+  content: ", например изображение, видео и так далее.";
+}
+.diary_but_mob {
+  display: none;
+}
 .diary_wrap .new {
   padding-left: 200px;
 }
@@ -591,6 +599,9 @@
 }
 .diary_card_last:hover {
   background: #EEEEEE;
+}
+.diary_pag_mob {
+  display: none;
 }
 /* Diary end */
 /* Questions start */
@@ -863,7 +874,7 @@ transition: 0.3s all linear;
       gap: 32px;
     }
     .slide_card_wrap {
-      padding: 0px 12px 0px 12px;
+      width: 320px;
     }
     .slide_card_left {
       padding-left: 12px;
@@ -917,9 +928,9 @@ transition: 0.3s all linear;
     }
     .pagination_mobile {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      width: 400px;
+      width: 200px;
     }
     .pagination_mobile a {
       font-family: 'Montserrat';
@@ -930,5 +941,250 @@ transition: 0.3s all linear;
       color: #FF005C;
       text-decoration: none;
       margin-bottom: 88px;
+    }
+    /* --------------------------------------------------------------------------- */
+    .seo_services {
+      overflow: hidden;
+    }
+    .seo_services_wrapper {
+      padding-top: 80px;
+    }
+    .seo_services_wrapper-h2 {
+      font-size: 16px;
+      line-height: 20px;
+      padding-top: 0px;
+    }
+    .seo_services_wrapper-h3 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 165%;
+      width: 336px;
+      margin-bottom: 40px;
+    }
+    .services_card-img {
+      display: block;
+      text-align: center;
+    }
+    .seo_ellipse {
+      width: 160px;
+      height: 160px;
+    }
+    /* --------------------------------------------------------------------------- */
+    .tarif {
+      height: 100%;
+    }
+    .tarif_wrap {
+      padding: 80px 0px 0px 0px;
+    }
+    .tarif_desc {
+      padding: 0px 12px 0px 12px;
+    }
+    .tarif_desc h2 {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+    }
+    .tarif_desc h3 {
+      font-size: 16px;
+      margin-bottom: 40px;
+      max-width: 951px;
+    }
+    .tarif_cards {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      height: auto;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .tarif_card {
+      width: 337px;
+      height: 100%;
+    }
+    .tarif_button {
+      margin-top: 20px;
+      width: 300px;
+    }
+    .tarif_button_dif {
+      margin-top: 35px;
+    }
+    .tarif_card:last-child {
+      margin-bottom: 80px;
+    }
+    /* ---------------------------------------------------------------------------------------------- */
+    .audit {
+      background: url(/img/audit-small.png) no-repeat center;
+      background-size: cover;
+    }
+    .audit_wrap h2 {
+      margin-top: 80px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 165%;
+    }
+    .audit_wrap p {
+      font-size: 16px;
+      line-height: 180%;
+      margin-bottom: 32px;
+    }
+    .audit_wrap a {
+      width: 300px;
+      height: 65px;
+      margin-bottom: 80px;
+    }
+    /* ----------------------------------------------------------------------------------------------- */
+    .diary_wrap {
+      height: 100%;
+    }
+    .diary_wrap .new {
+      padding-left: 0px;
+    }
+    .diary_pag {
+      justify-content: center;
+      gap: 49px;
+      position: unset;
+    }
+    .diary_cards .diary_card {
+      background: #FFFFFF;
+      box-shadow: 0px 0px 11px rgba(107, 107, 107, 0.25);
+      border-radius: 4px;
+      width: 336px !important;
+      height: 100%;
+    }
+    .diary_desc {
+      padding: 80px 7px 0px 7px;
+    }
+    .diary_desc h2 {
+      margin-bottom: 40px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .diary_desc h3 {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .diary_card_img {
+      padding: 16px 12px 32px 12px;
+      width: 312px;
+      object-fit: cover;
+    }
+    .diary_cards {
+      padding: 16px 4px;
+    }
+    .diary_card .diary_button {
+      display: none;
+    }
+    .new .diary_cards .diary_card .diary_cont {
+      margin-bottom: 24px;
+    }
+    .diary_but_mob {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      width: 300px;
+      height: 42px;
+      border: 1px solid black;
+      border-radius: 53px;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 165%;
+      margin-bottom: 35px;
+      color: black;
+      margin: 0 auto;
+      margin-bottom: 16px;
+    }
+    .diary_but_mob:hover, .diary_but_mob:focus, .diary_but_mob:active {
+      background-color: #171717;
+      color: white;
+    }
+    .diary_card p::after {
+      content: ".";
+    }
+    .diary_card h4 {
+      font-size: 16px;
+      line-height: 165%;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .diary_pag {
+      display: none;
+    }
+    .diary_pag_mob {
+      display: block;
+    }
+    .new {
+      margin-bottom: 20px;
+    }
+    .swiper-pagination {
+      position: relative !important;
+      margin-bottom: 80px;
+    }
+    .swiper-wrapper .swiper-slide .swiper-slide-prev {
+      width: 336px !important;
+    }
+    .swiper-wrapper {
+      min-width: 0;
+    }
+    .diary_card_last {
+      height: 565px !important;
+    }
+    /* ----------------------------------------------------------------------------------------- */
+    .quest_wrap {
+      padding-top: 80px;
+      align-items: normal;
+    }
+    .quest_wrap h2 {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+      text-align: left;
+      padding-left: 12px;
+    }
+    .quest_wrap h3 {
+      font-size: 16px;
+      margin-bottom: 20px;
+      padding-left: 12px;
+    }
+    .break {
+      display: none;
+    }
+    .li_container {
+      gap: 0px;
+      padding-bottom: 80px;
+    }
+    .select_1, .select_2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .li_container {
+      align-items: center;
+    }
+    .select_1, .select_2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .li_item {
+      max-width: 300px;
+      overflow-y: visible;
+    }
+    .menu li {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    .arrow {
+      position: absolute;
+    }
+    .sub_menu_list {
+      width: 270px;
+      padding: 0px;
+    }
+    .li_item p {
+      width: 250px;
     }
 }

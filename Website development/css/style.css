@@ -1456,7 +1456,7 @@ transition: 0.3s all linear;
       height: 65px;
       margin-bottom: 80px;
     }
-        /* -------------------------------------------------------------- */
+    /* ----------------------------------------------------------------------------------------------- */
     .portfolio_desc h2 {
       font-weight: 400;
       font-size: 16px;
@@ -1556,5 +1556,37 @@ transition: 0.3s all linear;
     .li_container {
       gap: 0px;
       padding-bottom: 80px;
+    }
+    .select_1, .select_2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .li_container {
+      align-items: center;
+    }
+    .select_1, .select_2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .li_item {
+      max-width: 300px;
+      overflow-y: visible;
+    }
+    .menu li {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    .arrow {
+      position: absolute;
+    }
+    .sub_menu_list {
+      width: 270px;
+      padding: 0px;
+    }
+    .li_item p {
+      width: 240px;
     }
   }
