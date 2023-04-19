@@ -36,7 +36,7 @@
 }
 .seo_intro_card {
     height: 645px;
-    background: url('/img/seo-intro-bg.png') no-repeat center;
+    background: url('/seo/img/seo-intro-bg.png') no-repeat center;
     background-size: cover;
     width: 100%;
 }
@@ -142,7 +142,7 @@
     margin-bottom: 40px;
 }
 .slide_card_right_img {
-    background: url('../img/prom-pic-1-small.png') no-repeat center;
+    background: url('/seo/img/prom-pic-1-small.png') no-repeat center;
     height: 370px;
     background-size: cover;
     width: 464px;
@@ -367,13 +367,13 @@
   font-size: 16px;
   line-height: 165%;
   color: #FFFFFF;
-  list-style-image: url("/img/plus.png");
+  list-style-image: url("/seo/img/plus.png");
   margin-left: 46px;
   margin-bottom: 12px;
   margin-right: 20px;
 }
 .tarif_card ul .all_serv {
-  list-style-image: url("/img/dot.png");
+  list-style-image: url("/seo/img/dot.png");
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -409,7 +409,7 @@
 /* Audit start */
 .audit {
   height: 521px;
-  background: url("/img/audit-paralax.png") no-repeat center;
+  background: url("/seo/img/audit-paralax.png") no-repeat center;
   min-height: 100%;
   position: relative;
   background-attachment: fixed;
@@ -1012,7 +1012,7 @@ transition: 0.3s all linear;
     }
     /* ---------------------------------------------------------------------------------------------- */
     .audit {
-      background: url(/img/audit-small.png) no-repeat center;
+      background: url("/seo/img/audit-small.png") no-repeat center;
       background-size: cover;
     }
     .audit_wrap h2 {

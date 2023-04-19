@@ -1421,7 +1421,8 @@
   }
   .advantages_cards {
     max-width: 320px;
-    height: 180px;
+    height: 100%;
+    padding-bottom: 10px;
   }
   .advantages_cards h4 {
     margin: 0;
