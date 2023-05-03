@@ -700,6 +700,12 @@ transition: 0.3s all linear;
 }
 /* Questions end */
   /* Media */
+  @media screen and (max-width: 1550px) {
+    .seo_intro_info {
+      position: relative;
+      width: auto;
+    }
+  }
   @media screen and (max-width: 1280px) {
     .seo_intro_info {
       position: relative;

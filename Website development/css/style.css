@@ -260,7 +260,7 @@
   justify-content: center;
 }
 .land-tarif_card {
-  background: #171717;
+  background: black;
   border: 1px solid #FF005C;
   box-shadow: 0px 0px 5px #FF005C;
   border-radius: 4px;
@@ -451,7 +451,7 @@
   line-height: 24px;
 }
 .corp-tarif_card {
-  background: #171717;
+  background: black;
   border: 1px solid #FF005C;
   box-shadow: 0px 0px 5px #FF005C;
   border-radius: 4px;
@@ -635,7 +635,7 @@
   line-height: 24px;
 }
 .shop-tarif_card {
-  background: #171717;
+  background: black;
   border: 1px solid #FF005C;
   box-shadow: 0px 0px 5px #FF005C;
   border-radius: 4px;
@@ -956,18 +956,24 @@
 .sub_menu_list.open{
   display: block;
 }
-.arrow {
-position: absolute;
-right: 20px;
-top: 20px;
-cursor: pointer;
+.menu_arrow {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  cursor: pointer;
+}
+.menu_arrow_s {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
 }
 .arrow_1{
   top: 40px;
 }
 .arrow.active,.arrow_1.active {
 transform: rotate(90deg);
-transition: 0.3s all linear;
+/* transition: 0.3s all linear; */
 }
 .show_more{
   display: none;
@@ -980,6 +986,13 @@ transition: 0.3s all linear;
 }
 /* Questions end */
   /* Media */
+  @media screen and (max-width: 1550px) {
+    .seo_intro_info {
+      position: relative;
+      width: auto;
+    }
+  }
+
   @media screen and (max-width: 1280px) {
     .seo_intro_info {
       position: relative;
