@@ -102,6 +102,15 @@
   bottom: 280px;
   right: 215px;
 }
+.intro_socials_wrap {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 70px;
+}
+.intro_socials_wrap li a {
+  padding-right: 12px;
+}
 /* Intro end */
 /* About_us_prev start */
 .about_us_prev {
@@ -225,11 +234,6 @@
   width: 28px;
   margin-bottom: 53px;
 }
-/* .direction_cards img:hover {
-  position: absolute;
-  width: 150px;
-  margin-bottom: 53px;
-} */
 .direction_card_desc h3 {
   margin-bottom: 40px;
   font-family: 'Comfortaa';
@@ -417,7 +421,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  /* background-color: #000; */
   z-index: 10;
   transform: translateY(100%);
   transition: 0.2s all linear;
@@ -477,7 +480,6 @@
 }
 .offers_wrapper {
   position: relative;
-  /* overflow: hidden; */
 }
 .offers_ellipse {
   position: absolute;
@@ -501,7 +503,7 @@
 .offers_wrapper_content {
   max-width: 954px;
   margin: 0 auto;
-  padding-top: 120px;
+  padding: 120px 15px 0px 15px;
 }
 .offers_card {
   display: grid;
@@ -609,32 +611,43 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.review_wrapper {
-  max-width: 1300px;
+.review_desc {
+  max-width: 954px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 15px;
+  margin-bottom: 40px;
+  padding-top: 120px;
+}
+.review_rapper {
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
-  padding-top: 120px;
   position: relative;
 }
-.review_wrapper h2 {
+.review_desc h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
   color: #ff005c;
   margin-bottom: 40px;
-  margin-left: 170px;
 }
-.review_wrapper h3 {
+.review_desc h3 {
   font-family: 'Comfortaa';
   font-size: 24px;
   font-weight: 500;
   line-height: 43px;
   letter-spacing: 0.02em;
-  margin-bottom: 40px;
-  margin-left: 170px;
 }
-
+.review_letter {
+  display: flex;
+  position: relative;
+  padding: 5px;
+  max-width: 1700px;
+  height: 650px;
+  margin-bottom: 100px;
+}
 /* Reviews end */
 /* Work process start */
 .work_process {
@@ -905,6 +918,15 @@
   .img_three {
     right: 0px;
   }
+  /* .review_rapper h2, .review_rapper h3 {
+    margin-left: 0px;
+  } */
+  .swiper {
+    max-width: 900px;
+  }
+  .review_letter {
+    max-width: 900px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .swiper {
@@ -951,9 +973,6 @@
     height: 100%;
     padding-bottom: 120px;
   }
-  .img_letter_3 {
-    display: none;
-  }
   .work_process_cards {
     display: flex;
     flex-wrap: wrap;
@@ -973,9 +992,35 @@
     justify-content: center;
   }
   .portfolio_card {
-    height: 350px;
-    width: 350px;
-    padding-bottom: 50px;
+    height: 300px;
+    width: 330px;
+  }
+  .short_img {
+    display: none;
+  }
+  .portfolio_cards {
+    gap: 0;
+  }
+  .short-img-mobile {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .about_us_short {
+    height: auto;
+  }
+  .short_card {
+    flex-direction: column;
+  }
+  .short_card_desc {
+    position: relative;
+  }
+  .short_card_desc p {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 960px) {
@@ -991,6 +1036,29 @@
   .img_three {
     display: none;
   }
+  .swiper {
+    max-width: 450px;
+  }
+  .work_process {
+    height: auto;
+    margin-bottom: 80px;
+  }
+  .h3_more {
+    display: none;
+  }
+  .h3_more-mobile {
+    display: block;
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .portfolio_wrapper {
+    margin-bottom: 80px;
+}
 }
 @media screen and (max-width: 640px) {
   /* ------------------------------------------------------------ */
@@ -1015,6 +1083,9 @@
   }
   .intro_social_wrap {
     padding-bottom: 25px !important;
+  }
+  .intro_socials_wrap {
+    margin-bottom: 20px;
   }
   .img_one {
     left: -100px;
@@ -1047,6 +1118,7 @@
     flex-wrap: wrap;
     padding-top: 80px;
     padding-bottom: 80px;
+    justify-content: center;
   }
   .prew_card {
     display: flex;
@@ -1069,7 +1141,7 @@
   }
   .short_card {
     padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
   .short-img-mobile {
     margin-bottom: 20px;
@@ -1087,7 +1159,7 @@
     display: flex;
     position: unset;
     flex-direction: column;
-    max-width: 320px;
+    /* max-width: 320px; */
   }
   .short_card_desc h2 {
     font-size: 16px;
@@ -1101,9 +1173,9 @@
     max-width: 335px;
     margin-bottom: 20px;
   }
-  .short_card_desc p {
+  /* .short_card_desc p {
     max-width: 336px;
-  }
+  } */
   /* -------------------------------------------------------------- */
   .direction_wrapper {
     padding-bottom: 80px;
@@ -1139,7 +1211,7 @@
     line-height: 180%;
   }
   .direction_card {
-    width: 330px;
+    /* width: 330px; */
     gap: 10px;
   }
   .direction_cards img {
@@ -1329,15 +1401,11 @@
   }
   /* -------------------------------------------------------------- */
   .review_letter_img img {
-    width: 324px;
-    /* background-size: contain; */
+    max-width: 100%;
   }
   .review {
     height: 100%;
     padding-bottom: 80px;
-  }
-  .img_letter_2 {
-    display: none;
   }
   .review_wrapper {
     padding-top: 80px;
@@ -1368,9 +1436,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
-  }
-  .review_letter {
-    min-width: 0;
   }
   /* -------------------------------------------------------------- */
   .work_process {
@@ -1418,9 +1483,10 @@
   .advantages_card {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .advantages_cards {
-    max-width: 320px;
+    width: 320px;
     height: 100%;
     padding-bottom: 10px;
   }
@@ -1463,7 +1529,7 @@
   .portfolio_wrapper {
     padding: 80px 12px;
   }
-  .portfolio_card-1 {
+  /* .portfolio_card-1 {
     background: url(/img/portfolio-1-mobile.png) no-repeat center;
   }
   .portfolio_card-2 {
@@ -1480,14 +1546,13 @@
   }
   .portfolio_card-6 {
     background: url(/img/portfolio-6-mobile.png) no-repeat center;
-    background-size: cover;
   }
   .portfolio_card-7 {
     background: url(/img/portfolio-7-mobile.png) no-repeat center;
   }
   .portfolio_card-8 {
     background: url(/img/portfolio-8-mobile.png) no-repeat center;
-  }
+  } */
   .portfolio_card h4 {
     font-size: 16px;
     line-height: 20px;
@@ -1497,19 +1562,6 @@
   .card_hide,
   .card_hide2 {
     background-size: cover;
-  }
-  .h3_more {
-    display: none;
-  }
-  .h3_more-mobile {
-    display: block;
-    text-align: center;
-    padding-top: 32px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 16px;
-    line-height: 23px;
   }
   /* -------------------------------------------------------------- */
 }

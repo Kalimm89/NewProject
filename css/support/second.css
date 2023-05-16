@@ -1,0 +1,101 @@
+
+  /* portfolio start */
+  .Second_support {
+    height:auto;
+    margin-bottom: 120px;
+}
+  .Second_supportWrap{
+    max-width: 952px;
+    margin: 0 auto;
+    padding-top: 343px;
+   }
+
+.second_flex{
+display: flex;
+flex-direction: column;
+gap: 32px;
+}
+
+.second_flex h1{
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+}
+.second_flex_sec{
+    display: flex;
+    gap: 25px;
+}
+
+.first_cont,.second_cont{
+    width: 50%;
+}
+
+.first_cont p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.second_cont{
+    height: 376px;
+    background-image: url(../../img/second-block.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* MEDIA  */
+
+@media screen and (max-width: 768px) { 
+    .Second_support {
+        height:auto;
+        margin-bottom: 0;
+        padding: 0 12px 80px 12px;
+    }
+
+        .Second_supportWrap{
+        max-width: 100%;
+        padding-top: 80px;
+       
+    }
+.second_flex h1{
+font-size:36px;
+line-height: 59px;
+}
+
+.second_flex{
+    gap: 0;
+    }
+.second_flex_sec {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.first_cont,.second_cont{
+    width: 100%;
+}
+
+
+}
+
+ @media screen and (min-width: 641px) and (max-width: 1600px){
+
+    .Second_support {
+        height:auto;
+        margin-bottom: 0;
+        padding: 0 12px 80px 12px;
+    }
+     .second_flex h1{
+        font-size: 36px;
+        line-height: 59px;
+    
+        }
+        .first_cont p{
+            margin-top: 0px;
+        }
+        
+
+
+} 

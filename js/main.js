@@ -71,16 +71,15 @@ new Swiper('.swiper', {
     loop: false,
     grabCursor: true,
     slidesPerView: 1,
-    spaceBetween: 12,
     breakpoints: {
-        1330: {
+        1340: {
             slidesPerView: 3,
         },
         1075: {
-            slidesPerView: 2.5,
+            slidesPerView: 2,
         },
-        887: {
-            slidesPerView: 1.5,
+        960: {
+            slidesPerView: 2,
         }
     },
 });

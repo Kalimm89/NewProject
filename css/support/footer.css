@@ -150,9 +150,6 @@
   .contacts_nav_soc_mob {
     display: none;
   }
-  input {
-    outline: none;
-}
   /* Footer end */
   @media screen and (max-width: 1280px) {
     .footer_ellipse-4 {

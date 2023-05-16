@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Manrope:wght@600&family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -41,7 +42,7 @@
                                     <li class="drop_li_title">Услуги</li>
                                     <li class="drop_li_open"><a href="website development.html">Разработка сайтов</a></li>
                                     <li class="drop_li_open"><a href="seo.html">SEO продвижение</a></li>
-                                    <li class="drop_li_open"><a href="#!">Поддержка сайтов</a></li>
+                                    <li class="drop_li_open"><a href="support.html">Поддержка сайтов</a></li>
                                     <li class="drop_li_open"><a href="#!">UI/UX Дизайн</a></li>
                                     <li class="drop_li_open"><a href="#!">Звукозапись</a></li>
                                 </ul>
@@ -50,7 +51,7 @@
                                 <ul class="dropdown_list">
                                     <li class="drop_li"><a href="website development.html">Разработка сайтов</a></li>
                                     <li class="drop_li"><a href="seo.html">SEO продвижение</a></li>
-                                    <li class="drop_li"><a href="#!">Поддержка сайтов</a></li>
+                                    <li class="drop_li"><a href="support.html">Поддержка сайтов</a></li>
                                     <li class="drop_li"><a href="#!">UI/UX Дизайн</a></li>
                                     <li class="drop_li"><a href="#!">Звукозапись</a></li>
                                 </ul>
@@ -115,26 +116,11 @@
                     <p class="title_mob-2">цифровые системы</p>
                 </div>
                 <a href="#!" class="intro_title_button">Заказать проект</a>
-                
-                <nav class="intro_social_wrap">
-                    <ul class="intro_social_list">
-                        <li class="social_item">
-                            <a href="#!">
-                                <img src="./img/tg-ico.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social_item">
-                            <a href="#!">
-                                <img src="./img/vk-ico.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social_item">
-                            <a href="#!">
-                                <img src="./img/wu-ico.png" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                <ul class="intro_socials_wrap">
+                    <li><a href=""><img src="./seo/img/tg-ico.png" alt=""></a></li>
+                    <li><a href=""><img src="./seo/img/vk-ico.png" alt=""></a></li>
+                    <li><a href=""><img src="./seo/img/wu-ico.png" alt=""></a></li>
+                </ul>
             </div>    
         </section>
         <!-- Intro end -->
@@ -169,7 +155,7 @@
                         <div class="short_card_desc">
                             <h2>Коротко о нас</h2>
                             <h3>Нашей задачей является создание полезных  web продуктов.</h3>
-                            <img src="./img/crop-woman-mobile.png" alt="" class="short-img-mobile">
+                            <img src="./img/about-us-short.png" alt="" class="short-img-mobile">
                             <p>
                                 Наши основные направления это производство сайтов полного цикла (лендинги, e-commerce, корпоративные сайты и другое), интеграции 
                                 с внешними и внутренними системи заказчика, техническая поддержка 
@@ -342,9 +328,11 @@
         <!-- Offers end -->
         <!-- Reviews start -->
         <section class="review">
-            <div class="review_wrapper">
+            <div class="review_desc">
                 <h2>Отзывы</h2>
                 <h3>Благодарственные письма <span class="review_wrapper_span">наших клиентов</span></h3>
+            </div>
+            <div class="review_rapper">
                 <div class="swiper">
                     <div class="review_letter swiper-wrapper">
                         <div class="review_letter_img img_letter_1 swiper-slide">
