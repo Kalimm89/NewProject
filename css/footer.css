@@ -186,6 +186,15 @@
       z-index: 1;
     }
   }
+  @media screen and (max-width: 1000px) {
+    .form_desc_inputs {
+      flex-direction: column;
+      margin-left: 10px;
+    }
+    .contacts_form {
+      height: auto;
+    }
+  }
   @media screen and (max-width: 640px) {
     .footer {
         height: 100%;

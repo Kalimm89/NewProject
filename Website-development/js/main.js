@@ -36,13 +36,9 @@ new Swiper('.new', {
     },
     loop: false,
     grabCursor: true,
-    slidesPerView: 1,
-    slidesPerGroup: 1,
-    spaceBetween: 19,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+    slidesPerView: 1.5,
+    initialSlide: 0,
+    spaceBetween: 24,
     breakpoints: {
         1280: {
             slidesPerView: 3.5,

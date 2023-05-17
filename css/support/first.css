@@ -157,11 +157,11 @@ color: #000;
       position: relative;
       height: 100%;
       padding-top: 0px;
-      z-index: -2;
+      z-index: 3;
     }
     .seo_intro_info_mobile {
       position: relative;
-      z-index: -1;
+      z-index: 2;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -169,7 +169,7 @@ color: #000;
       
     }
 
- .seo_intro_info_mobile img {
+    .seo_img {
       position: absolute;
       z-index: -1;
     } 
@@ -197,7 +197,7 @@ color: #000;
     
 
     .intro_socials_wrap li {
-      padding: 20px;
+      padding: 20px 10px;
     }
     .intro_socials_wrap li a {
       display: flex;
