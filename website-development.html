@@ -16,91 +16,108 @@
 </head>
 <body>
     <!-- Header start -->
-    <header class="header">
-        <div class="header_wrapper">
-            <div class="header__burger burger">
-                <span class="burger__line burger__line_first"></span>
-                <span class="burger__line burger__line_second"></span>
-                <span class="burger__line burger__line_third"></span>
-            </div>
-            <div class="header_logo">
-                <img src="./img/logo-glow.png" alt="Glow-media-logo">
-            </div>
-            <div class="header_logo-small">
-                <img src="./img/logo-glow-small.png" alt="Glow-media-logo">
-            </div>
-            <nav class="header_nav">
-                <ul class="header_list">
-                    <li class="header_item">
-                        <a href="/" class="main_lev">О компании</a>
-                    </li>
-                    <li class="header_item header_item_serv">
-                        <a href="#!" class="serve main_lev" id="serve">Услуги</a>
-                        <div class="dropdown_mobile">
-                            <ul class="dropdown_list_open">
-                                <li class="drop_li_title">Услуги</li>
-                                <li class="drop_li_open"><a href="website-development.html">Разработка сайтов</a></li>
-                                <li class="drop_li_open"><a href="seo.html">SEO продвижение</a></li>
-                                <li class="drop_li_open"><a href="support.html">Поддержка сайтов</a></li>
-                                <li class="drop_li_open"><a href="#!">UI/UX Дизайн</a></li>
-                                <li class="drop_li_open"><a href="#!">Звукозапись</a></li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <ul class="dropdown_list">
-                                <li class="drop_li"><a href="website-development.html">Разработка сайтов</a></li>
-                                <li class="drop_li"><a href="seo.html">SEO продвижение</a></li>
-                                <li class="drop_li"><a href="support.html">Поддержка сайтов</a></li>
-                                <li class="drop_li"><a href="#!">UI/UX Дизайн</a></li>
-                                <li class="drop_li"><a href="#!">Звукозапись</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="header_item">
-                        <a href="portfolio.html" class="main_lev">Кейсы</a>
-                    </li>
-                    <li class="header_item">
-                        <a href="#!" class="main_lev">Блог</a>
-                    </li>
-                    <li class="header_item">
-                        <a href="#!" class="main_lev"> Контакты</a>
-                    </li>
-                </ul>
-                <div class="header__nav-close">
-                    <img src="./img/header-nav-close.png" alt="">
+        <header class="header">
+            <div class="header_wrapper">
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
                 </div>
-                <div class="header_soc">
-                    <nav class="intro_social_wrap">
-                        <ul class="intro_social_list">
-                            <li class="social_item">
-                                <a href="#!">
-                                    <img src="./img/tg-ico.png" alt="">
-                                </a>
-                            </li>
-                            <li class="social_item">
-                                <a href="#!">
-                                    <img src="./img/vk-ico.png" alt="">
-                                </a>
-                            </li>
-                            <li class="social_item">
-                                <a href="#!">
-                                    <img src="./img/wu-ico.png" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="header_logo">
+                    <img src="./img/logo-glow.png" alt="Glow-media-logo">
                 </div>
-            </nav>
-            <div class="header_phone">
-                <p>8 - 900 - 693 - 09 - 00</p>
+                <div class="header_logo-small">
+                    <img src="./img/logo-glow-small.png" alt="Glow-media-logo">
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="/" class="main_lev">О компании</a>
+                        </li>
+                        <li class="header_item header_item_serv">
+                            <a href="#!" class="serve main_lev" id="serve">Услуги</a>
+                            <div class="dropdown_mobile">
+                                <ul class="dropdown_list_open">
+                                    <li class="drop_li_title">Услуги</li>
+                                    <li class="drop_li_open"><a href="#!" class="web_dev">Разработка сайтов</a>
+                                        <div class="dropdown_wd_mob">
+                                            <ul class="dropdown_list_wd_mob">
+                                                <li class="drop_li_wd_mob"><a href="bitrix.html">1С-Битрикс<br>Интернет магазин</a></li>
+                                                <li class="drop_li_wd_mob"><a href="bitrix.html">1С-Битрикс<br>Корпоративный сайт</a></li>
+                                                <li class="drop_li_wd_mob"><a href="bitrix.html">1С-Битрикс<br>Социальная сеть</a></li>
+                                                <li class="drop_li_wd_mob"><a href="website-development.html">Подробнее</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="drop_li_open"><a href="seo.html">SEO продвижение</a></li>
+                                    <li class="drop_li_open"><a href="support.html">Поддержка сайтов</a></li>
+                                    <!-- <li class="drop_li_open"><a href="#!">UI/UX Дизайн</a></li>
+                                    <li class="drop_li_open"><a href="#!">Звукозапись</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <ul class="dropdown_list">
+                                    <li class="drop_li drop_li_wd_open"><a href="website-development.html">Разработка сайтов<span>&#8594</span></a>
+                                        <div class="dropdown_wd">
+                                            <ul class="dropdown_list_wd">
+                                                <li class="drop_li_wd"><a href="bitrix.html">1С-Битрикс<br>Интернет магазин</a></li>
+                                                <li class="drop_li_wd"><a href="bitrix.html">1С-Битрикс<br>Корпоративный сайт</a></li>
+                                                <li class="drop_li_wd"><a href="bitrix.html">1С-Битрикс<br>Социальная сеть</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="drop_li"><a href="seo.html">SEO продвижение</a></li>
+                                    <li class="drop_li"><a href="support.html">Поддержка сайтов</a></li>
+                                    <!-- <li class="drop_li"><a href="#!">UI/UX Дизайн</a></li>
+                                    <li class="drop_li"><a href="#!">Звукозапись</a></li> -->
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_item">
+                            <a href="portfolio.html" class="main_lev">Кейсы</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#!" class="main_lev">Блог</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#!" class="main_lev"> Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="header__nav-close">
+                        <img src="./img/header-nav-close.png" alt="">
+                    </div>
+                    <div class="header_soc">
+                        <nav class="intro_social_wrap">
+                            <ul class="intro_social_list">
+                                <li class="social_item">
+                                    <a href="#!">
+                                        <img src="./img/tg-ico.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="social_item">
+                                    <a href="#!">
+                                        <img src="./img/vk-ico.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="social_item">
+                                    <a href="#!">
+                                        <img src="./img/wu-ico.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
+                <div class="header_phone">
+                    <p>8 - 900 - 693 - 09 - 00</p>
+                </div>
+                <div class="header_phone_ico">
+                    <img src="./img/phone-ico.png" alt="">
+                </div>
+                
             </div>
-            <div class="header_phone_ico">
-                <img src="./img/phone-ico.png" alt="">
-            </div>
-            
-        </div>
-</header>
-<!-- Header end -->
+        </header>
+    <!-- Header end -->
     <main class="main">
         <!-- SEO_intro start -->
         <section class="seo_intro">

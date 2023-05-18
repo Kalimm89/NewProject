@@ -38,9 +38,11 @@ function readMoreBusiness() {
     const menuLinks = document.querySelectorAll('.header_link');
     burgerItem.addEventListener('click', () => {
         menu.classList.add('header__nav_active');
+        document.body.classList.toggle('_lock');
     });
     menuCloseItem.addEventListener('click', () => {
         menu.classList.remove('header__nav_active');
+        document.body.classList.remove('_lock');
     });
     if (window.innerWidth <= 767) {
         for (let i = 0; i < menuLinks.length; i += 1) {
@@ -91,7 +93,14 @@ for (let i = 0; i < arrow.length; i++){
        submenu.classList.toggle('dropdown_open');
    });
 }
-
+(function () {
+    const web_dev = document.querySelector('.web_dev');
+    const dropdown_wd_mob = document.querySelector('.dropdown_wd_mob');
+    web_dev.addEventListener('click', () => {
+        console.log('hi');
+        dropdown_wd_mob.classList.toggle('dropdown_open');
+    });
+}());
 (function () {
     const menu = document.querySelector('.dropdown_mobile');
     const menuCloseItem = document.querySelector('.header__nav-close');

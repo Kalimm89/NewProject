@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Manrope:wght@600&family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./seo/css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
     <!-- Header start -->
@@ -39,20 +39,37 @@
                         <div class="dropdown_mobile">
                             <ul class="dropdown_list_open">
                                 <li class="drop_li_title">Услуги</li>
-                                <li class="drop_li_open"><a href="website-development.html">Разработка сайтов</a></li>
+                                <li class="drop_li_open"><a href="#!" class="web_dev">Разработка сайтов</a>
+                                    <div class="dropdown_wd_mob">
+                                        <ul class="dropdown_list_wd_mob">
+                                            <li class="drop_li_wd_mob"><a href="bitrix.html">1С-Битрикс<br>Интернет магазин</a></li>
+                                            <li class="drop_li_wd_mob"><a href="bitrix.html">1С-Битрикс<br>Корпоративный сайт</a></li>
+                                            <li class="drop_li_wd_mob"><a href="bitrix.html">1С-Битрикс<br>Социальная сеть</a></li>
+                                            <li class="drop_li_wd_mob"><a href="website-development.html">Подробнее</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                                 <li class="drop_li_open"><a href="seo.html">SEO продвижение</a></li>
                                 <li class="drop_li_open"><a href="support.html">Поддержка сайтов</a></li>
-                                <li class="drop_li_open"><a href="#!">UI/UX Дизайн</a></li>
-                                <li class="drop_li_open"><a href="#!">Звукозапись</a></li>
+                                <!-- <li class="drop_li_open"><a href="#!">UI/UX Дизайн</a></li>
+                                <li class="drop_li_open"><a href="#!">Звукозапись</a></li> -->
                             </ul>
                         </div>
                         <div class="dropdown">
                             <ul class="dropdown_list">
-                                <li class="drop_li"><a href="website-development.html">Разработка сайтов</a></li>
+                                <li class="drop_li drop_li_wd_open"><a href="website-development.html">Разработка сайтов<span>&#8594</span></a>
+                                    <div class="dropdown_wd">
+                                        <ul class="dropdown_list_wd">
+                                            <li class="drop_li_wd"><a href="bitrix.html">1С-Битрикс<br>Интернет магазин</a></li>
+                                            <li class="drop_li_wd"><a href="bitrix.html">1С-Битрикс<br>Корпоративный сайт</a></li>
+                                            <li class="drop_li_wd"><a href="bitrix.html">1С-Битрикс<br>Социальная сеть</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                                 <li class="drop_li"><a href="seo.html">SEO продвижение</a></li>
                                 <li class="drop_li"><a href="support.html">Поддержка сайтов</a></li>
-                                <li class="drop_li"><a href="#!">UI/UX Дизайн</a></li>
-                                <li class="drop_li"><a href="#!">Звукозапись</a></li>
+                                <!-- <li class="drop_li"><a href="#!">UI/UX Дизайн</a></li>
+                                <li class="drop_li"><a href="#!">Звукозапись</a></li> -->
                             </ul>
                         </div>
                     </li>
@@ -99,7 +116,7 @@
             </div>
             
         </div>
-</header>
+    </header>
 <!-- Header end -->
     <!-- SEO_intro start -->
     <section class="seo_intro">
@@ -375,13 +392,13 @@
                     <div class="menu">
                         <ul class="menu_list">
                             <li class="li_item"><p>Вы работаете по договору?</p>
-                                <span class="menu_arrow arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
+                                <span class="menu_arrow_s arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
                                 <p class="sub_menu_list">
                                     Да, мы работаем по договору оказания услуг. Предоставляем вам чек на полученные от вас денежные средства, так как оформлены в статусе самозанятого. Платим налоги в размере 6% при оплате от юридического лица, в размере 4% при получении оплаты от физического лица.
                                 </p>
                             </li >
                             <li class="li_item"><p>Какой срок выполнения работ?</p>
-                                <span class="menu_arrow arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
+                                <span class="menu_arrow_s arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
                                 <p class="sub_menu_list">
                                     Все сроки и этапы выполнения услуг (работ) мы прописываем в договоре, ТЗ а также в переписке e-mail.
                                 </p>
@@ -417,13 +434,13 @@
                                 </p>
                             </li >
                             <li class="li_item"><p>Почему все стремятся попасть в ТОП-10?</p>
-                                <span class="menu_arrow arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
+                                <span class="menu_arrow_s arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
                                 <p class="sub_menu_list">
                                     По статистике, первые 10 позиций забирают до 80-90% трафика по конкретному ключевому запросу. Это означает, что если ваш сайт находится за пределами ТОП-10, то он недополучает значительное количество переходов, то есть вы теряете клиентов.
                                 </p>
                             </li >
                             <li class="li_item"><p>Кому доверить продвижение сайта?</p>
-                                <span class="menu_arrow arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
+                                <span class="menu_arrow_s arrow"><img src="./seo/img/arrow-right-red.png" alt="arrow"></span>
                                 <p class="sub_menu_list">
                                     Есть 2 принципиально разные модели организации продвижения: «инхаус» и «аутсорсинг». В первом случае нанимаются штатные SEO-специалисты, во втором — все функции SEO передаются сторонней компании.
 «Инхаус» подходит для крупных компаний, у которых большой объем работы и которые могут себе позволить создание дополнительных рабочих мест. Малому и среднему бизнесу выгоднее обращаться к сторонним специалистам — в этом случае не надо тратиться на поиск персонала, создание рабочих мест, заработную плату и соцпакет.

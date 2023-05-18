@@ -88,12 +88,18 @@
 
 } */
 
-.arrow {
- position: absolute; 
- right: 20px;
- top: 15px;
- cursor: pointer;
-}
+.menu_arrow {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    cursor: pointer;
+  }
+  .menu_arrow_s {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+  }
 
 .arrow_1{
    top: 40px;

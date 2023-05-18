@@ -1179,6 +1179,14 @@ transform: rotate(90deg);
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-left: 15px;
+      padding-left: 15px;
+    }
+    .select_1, .select_2 {
+      width: auto;
+    }
+    .quest_wrap h2, .quest_wrap h3 {
+      align-self: baseline;
     }
   }
   @media screen and (max-width: 1055px) {
@@ -1683,7 +1691,6 @@ transform: rotate(90deg);
     }
     .portfolio_card-6 {
       background: url(/img/portfolio-6-mobile.png) no-repeat center;
-      /* background-size: cover; */
     }
     .portfolio_card-7 {
       background: url(/img/portfolio-7-mobile.png) no-repeat center;
@@ -1810,6 +1817,24 @@ transform: rotate(90deg);
     .submit_button {
       height: 56px;
       width: 260px !important;
+    }
+    .menu_arrow {
+      position: absolute;
+      right: 20px;
+      top: 25px;
+      cursor: pointer;
+    }
+    .menu_arrow_s {
+      position: absolute;
+      right: 20px;
+      top: 25px;
+      cursor: pointer;
+    }
+    .li_item:first-child  .menu_arrow_s {
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      cursor: pointer;
     }
   }
 
