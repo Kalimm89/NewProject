@@ -39,7 +39,7 @@
 }
 .seo_intro_card {
     height: 645px;
-    background: url('/Website-development/img/seo-intro-bg.png') no-repeat center;
+    background: url('/img/img-wd/seo-intro-bg.png') no-repeat center;
     background-size: cover;
     width: 100%;
 }
@@ -293,13 +293,13 @@
   font-size: 16px;
   line-height: 165%;
   color: #FFFFFF;
-  list-style-image: url("/Website-development/img/plus.png");
+  list-style-image: url("/img/plus.png");
   margin-left: 46px;
   margin-bottom: 12px;
   margin-right: 20px;
 }
 .land-tarif_card ul li {
-  list-style-image: url("/Website-development/img/dot.png");
+  list-style-image: url("/img/dot.png");
 }
 .land-tarif_button {
   display: flex;
@@ -446,7 +446,7 @@
 }
 .corp-tarif_card li {
   /* list-style-image: url("/img/dot.png"); */
-  list-style: url('/Website-development/img/dot.png');
+  list-style: url('/img/dot.png');
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -630,7 +630,7 @@
   justify-content: center;
 }
 .shop-tarif_card li {
-  list-style: url('/Website-development/img/dot.png');
+  list-style: url('/img/dot.png');
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -705,7 +705,7 @@
 /* Audit start */
 .audit {
   height: auto;
-  background: url("/Website-development/img/audit-paralax.png") no-repeat center;
+  background: url("/img/img-wd/audit-paralax.png") no-repeat center;
   min-height: 100%;
   position: relative;
   background-attachment: fixed;
@@ -810,6 +810,10 @@
   justify-content: center;
   align-items: flex-end;
 }
+.portfolio_cards a {
+  display: contents;
+  color: inherit;
+}
 .portfolio_card h4 {
   max-width: 198px;
   text-align: center;
@@ -819,7 +823,7 @@
   margin-bottom: 32px;
 }
 .portfolio_card-1 {
-  background: url(/img/portfolio-1-mobile.png) no-repeat center;
+  background: url(/img/img-wd/portfolio-1-mobile.png) no-repeat center;
   filter: grayscale(1);
 }
 .portfolio_card-1:hover {
@@ -1625,7 +1629,7 @@ transform: rotate(90deg);
     }
     /* ---------------------------------------------------------------------------------------------- */
     .audit {
-      background: url("/Website-development/img/audit-small.png") no-repeat center;
+      background: url("/img/img-wd/audit-small.png") no-repeat center;
       background-size: cover;
     }
     .audit_wrap h2 {
@@ -1704,6 +1708,7 @@ transform: rotate(90deg);
       font-weight: 500;
       max-width: 308px;
     }
+
     .card_hide,
     .card_hide2 {
       background-size: cover;

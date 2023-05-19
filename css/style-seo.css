@@ -855,6 +855,7 @@ transition: 0.3s all linear;
     }
     .prom_slide_wrap {
       height: auto;
+      margin-bottom: 40px;
     }
     .prom_exam {
       height: auto;
@@ -1121,6 +1122,7 @@ transition: 0.3s all linear;
       justify-content: space-between;
       align-items: center;
       width: 200px;
+      display: none;
     }
     .pagination_mobile a {
       font-family: 'Montserrat';

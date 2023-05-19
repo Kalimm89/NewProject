@@ -1420,6 +1420,7 @@
     bottom: -80px;
     left: -40px;
     width: 92px;
+    display: none;
   }
   .offers_ellipse-4 {
     display: block;

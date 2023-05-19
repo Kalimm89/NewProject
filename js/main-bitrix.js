@@ -1,3 +1,13 @@
+//Question
+let arrow = document.querySelectorAll('.arrow');
+for (let i = 0; i < arrow.length; i++){
+    let submenu = arrow[i].nextElementSibling;
+   let thisArrow = arrow[i];
+   arrow[i].addEventListener('click',function() {
+       thisArrow.classList.toggle('active');
+       submenu.classList.toggle('open');
+   });
+};
 // Popup 
 (function () {
     const ppBtns = document.querySelectorAll('.popup-act');

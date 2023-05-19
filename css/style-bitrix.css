@@ -36,7 +36,7 @@
 }
 .seo_intro_card {
     height: 645px;
-    background: url('/bitrix/img/bitrix-intro-bg.png') no-repeat center;
+    background: url('/img/img-bitrix/bitrix-intro-bg.png') no-repeat center;
     background-size: cover;
     width: 100%;
 }
