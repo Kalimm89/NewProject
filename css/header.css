@@ -149,7 +149,7 @@
     /* display: block; */
     position: absolute;
     top: 26px;
-    left: 275px;
+    left: 255px;
     background: #171717;
     border-radius: 21px;
     z-index: 19;
@@ -177,6 +177,7 @@
     background: black;
     height: 500px;
     top: -60px;
+    width: 210px;
   }
   .drop_li, .drop_li_wd {
     border-bottom: 1px solid rgba(95, 95, 95, 1);

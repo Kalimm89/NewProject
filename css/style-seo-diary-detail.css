@@ -39,7 +39,7 @@ body {
 }
 .seo_intro_card {
     height: 645px;
-    background: url('../seo/img/seo-detail-big.png') no-repeat center;
+    background: url('../img/img-seo/seo-detail-big.png') no-repeat center;
     background-size: cover;
     width: 100%;
 }
