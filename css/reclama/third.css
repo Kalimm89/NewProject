@@ -1,0 +1,261 @@
+/* Tarif start */
+.Third_tarif {
+    height: auto;
+    background-color: #171717;
+    overflow: hidden;
+  }
+  .Third_tarif_wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+  }
+  .third_tarif_desc {
+    max-width: 964px;
+    margin: 0 auto;
+    padding-top: 120px;
+  }
+  .third_tarif_desc h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FF005C;
+    margin-bottom: 40px;
+  }
+  .third_tarif_desc h3 {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+  }
+  .third_tarif_cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  .th_tarif_card {
+    background: black;
+    border: 1px solid #FF005C;
+    box-shadow: 0px 0px 5px #FF005C;
+    border-radius: 4px;
+    width: 464px;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .tarif_cards_desc {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FF005C;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  .tarif_cards_price {
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+  }
+  .th_tarif_card ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 165%;
+    color: #FFFFFF;
+    list-style-image: url("../../img/dot.png");
+    margin-left: 46px;
+    margin-bottom: 12px;
+    margin-right: 20px;
+  }
+  /* .tarif_card ul .all_serv {
+    list-style-image: url("../img/dot.png");
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  } */
+  .tarif_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 45px;
+    width: 140px;
+    background-color: #000;
+    border: 2px solid #ff005c;
+    border-radius: 53px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #ff005c;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: 32px;
+  }
+  .tarif_button:hover, .tarif_button:active, .tarif_button:focus, 
+  .submit_button:hover, .submit_button:active, .submit_button:focus {
+    background-color: #ff005c;
+    color: black;
+  }
+  /* .tarif_button_di {
+    margin-top: 214px;
+  }
+  .tarif_button_di2{
+    margin-top: 58px;
+  }
+  .tarif_button_di3{
+    margin-top: 110px;
+  } */
+
+  /* Tarif end */
+
+
+  @media screen and (max-width: 768px) { 
+
+    .Third_tarif {
+        height: 100%;
+      }
+      .Third_tarif_wrap {
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 80px;
+       
+      }
+      .third_tarif_desc {
+        padding: 0px 12px 0px 12px;
+      }
+      .third_tarif_desc h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+      }
+      .third_tarif_desc h3 {
+        font-size: 16px;
+        margin-bottom: 40px;
+        max-width: 951px;
+      }
+      .third_tarif_cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .th_tarif_card {
+        width: 337px;
+        height: auto;
+      }
+
+      .tarif_button {
+        /* margin-top: 20px; */
+        width: 300px;
+      }
+
+      .tarif_button_di,.tarif_button_di2,.tarif_button_di3  {
+        margin-top: 52px;
+        margin-bottom: 44px;
+      }
+
+  }
+
+
+ @media screen and (min-width: 769px) and (max-width: 1200px){
+    .Third_tarif {
+        height: 100%;
+      }
+      .Third_tarif_wrap {
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 80px;
+      }
+      .third_tarif_desc {
+        padding: 0px 12px 0px 12px;
+      }
+      .third_tarif_desc h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+      }
+      .third_tarif_desc h3 {
+        font-size: 16px;
+        margin-bottom: 40px;
+        max-width: 951px;
+      }
+      .third_tarif_cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .th_tarif_card {
+        width: 472px;
+        height: auto;
+      }
+
+      .tarif_button {
+        /* margin-top: 20px; */
+        width: 300px;
+      }
+
+      .tarif_button_di,.tarif_button_di2,.tarif_button_di3  {
+        margin-top: 52px;
+        margin-bottom: 44px;
+      }
+
+ }
+
+ 
+ @media screen and (min-width: 1201px) and (max-width: 1400px){
+    .Third_tarif {
+        height: 100%;
+      }
+      .Third_tarif_wrap {
+        padding: 80px 0px 0px 0px;
+        margin-bottom: 80px;
+      }
+      .third_tarif_desc {
+        padding: 0px 12px 0px 12px;
+      }
+      .third_tarif_desc h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+      }
+      .third_tarif_desc h3 {
+        font-size: 16px;
+        margin-bottom: 40px;
+        max-width: 951px;
+      }
+      .third_tarif_cards {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .th_tarif_card {
+        width: 472px;
+        height: auto;
+      }
+
+      .tarif_button {
+        /* margin-top: 20px; */
+        width: 300px;
+      }
+
+      .tarif_button_di,.tarif_button_di2,.tarif_button_di3  {
+        margin-top: 52px;
+        margin-bottom: 44px;
+      }
+
+ }

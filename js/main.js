@@ -22,6 +22,8 @@
 }());
 // Header open
 let arrows = document.querySelectorAll('.serve');
+const dlo_close = document.querySelector('.dlo_close');
+const dropdown_wd_mob = document.querySelector('.dropdown_wd_mob');
 for (let i = 0; i < arrows.length; i++){
     let submenu = arrows[i].nextElementSibling;
    arrows[i].addEventListener('click',function() {
@@ -30,10 +32,9 @@ for (let i = 0; i < arrows.length; i++){
 }
 (function () {
     const web_dev = document.querySelector('.web_dev');
-    const dropdown_wd_mob = document.querySelector('.dropdown_wd_mob');
     web_dev.addEventListener('click', () => {
-        console.log('hi');
         dropdown_wd_mob.classList.toggle('dropdown_open');
+        dlo_close.classList.add('header_phone');
     });
 }());
 (function () {
@@ -41,5 +42,7 @@ for (let i = 0; i < arrows.length; i++){
     const menuCloseItem = document.querySelector('.header__nav-close');
     menuCloseItem.addEventListener('click', () => {
         menu.classList.remove('dropdown_open');
+        dlo_close.classList.remove('header_phone');
+        dropdown_wd_mob.classList.remove('dropdown_open');
     });
 }());
