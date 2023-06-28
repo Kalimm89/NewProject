@@ -20,6 +20,20 @@
         }
     }
 }());
+// Town
+(function () {
+    const towns_link = document.querySelector('.towns_link');
+    const towns_change = document.querySelector('.towns_change');
+    const town_close = document.querySelector('.town_close');
+    towns_link.addEventListener('click', () => {
+        towns_change.classList.add('towns_change_act');
+        document.body.classList.toggle('_lock');
+    });
+    town_close.addEventListener('click', () => {
+        towns_change.classList.remove('towns_change_act');
+        document.body.classList.remove('_lock');
+    });
+}());
 // Header open
 let arrows = document.querySelectorAll('.serve');
 const dlo_close = document.querySelector('.dlo_close');

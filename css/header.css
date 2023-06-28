@@ -108,9 +108,9 @@
     flex-wrap: wrap;
     list-style: none;
   }
-  .header_item {
+  /* .header_item {
     margin-right: 28px;
-  }
+  } */
   .header_soc {
     display: none;
   }
@@ -235,6 +235,76 @@
     font-size: 24px;
     line-height: 29px;
   }
+  /* --------------------------------------------------------------------------------- */
+  .header_phone {
+    display: flex;
+    gap: 35px;
+  }
+  .town {
+    padding-left: 5px;
+  }
+  .towns_link {
+    display: flex;
+    color: white;
+    text-decoration: none;
+  }
+  .towns_link p {
+    display: flex;
+    padding-left: 6px;
+  }
+  .towns_change {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #171717;
+    z-index: 20;
+    transform: translateX(-100%);
+    transition: 0.2s all linear;
+    overflow: auto;
+ }
+ .towns_change_act {
+    transform: translateX(0%);
+ }
+ .towns_wrap {
+    max-width: 910px;
+    margin: 0 auto;
+    margin-top: 50px;
+ }
+ .towns_head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+ }
+ .towns_head h1 {
+  font-size: 24px;
+  color: #E3E3E3;
+  font-weight: 400;
+ }
+ .towns_body {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 40px;
+  height: 800px;
+}
+.towns_body li a {
+  font-size: 16px;
+  font-family: Montserrat;
+  line-height: 165%;
+  color: #C2C2C2;
+  text-decoration: none;
+}
+.towns_body li a:hover {
+  color: #FF005C;
+  text-decoration: underline;
+}
+.towns_body ul h2 {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #E3E3E3;
+}
 /* Media ____________________________________________________________________________ */
   @media screen and (max-width: 1055px) {
     .header {
